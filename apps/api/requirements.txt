@@ -1,0 +1,8 @@
+fastapi>=0.114
+uvicorn[standard]>=0.30
+motor>=3.3
+pymongo>=4.7
+pydantic>=2.7
+celery>=5.3
+python-dotenv>=1.0
+redis>=5.0

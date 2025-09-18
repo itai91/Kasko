@@ -1,0 +1,214 @@
+אפיון צד‑שרת (Backend) – פלטפורמת השוואת ביטוח חיים למשכנתא
+
+מסמך זה מתאר באופן מפורט את היבטי התכנון והפיתוח של צד השרת עבור מערכת השוואת ומכירת ביטוח חיים למשכנתא. הוא מתאים להעברה למפתחים ולכלי אוטומציה כגון Codex או Copilot לבניית קוד.
+
+1. טכנולוגיות ושירותים
+
+שפת תכנות: Python 3.11.
+
+Framework: FastAPI – מאפשר כתיבת REST API מודרני ואסינכרוני, תומך ב‑OpenAPI/Swagger ובממשק תיעוד אוטומטי.
+
+שרת אפליקציות: Uvicorn ASGI (ניתן לפרוס ב‑Gunicorn + Uvicorn workers בסביבת production).
+
+ORM / גישה למסד נתונים: אין ORM רלציוני; משתמשים ב‑MongoDB כמסמך (NoSQL) עם ספריית Motor (Client אסינכרוני) או pymongo. סכמות נתונים יאומתו באמצעות Pydantic.
+
+תורים ומשימות רקע: RabbitMQ עם Celery עבור הפעלות הדורשות זמן (חישובי פרמיה מסובכים, שליחת מיילים).
+
+Cache / Rate‑Limiting: Redis – שמירת תוצאות קצרות, טבלאות תעריפים, והגבלת קצב.
+
+אימיילים: SMTP/SendGrid – שליחת הודעות עם פרטי הלקוח והצעות.
+
+2. מבנה הפרויקט
+apps/api/
+  ├── app/
+  │   ├── main.py              # יצירת FastAPI, הגדרת middleware, טעינת תצורה וrouters
+  │   ├── config.py           # קריאת משתני סביבה (DB_URI, MAIL_SERVER ועוד)
+  │   ├── db/
+  │   │   ├── mongo.py        # יצירת MotorClient והחזרת handles לאוספים
+  │   │   └── models.py       # סכמות בסיסיות ל‑MongoDB (Document models) וניהול אינדקסים
+  │   ├── schemas/
+  │   │   ├── person.py       # PersonSchema, AddressSchema, HealthAnswerSchema
+  │   │   ├── mortgage.py     # MortgageTrack, MortgageSchema
+  │   │   ├── lead.py         # LeadCreateSchema, LeadOutSchema
+  │   │   ├── offer.py        # OfferResponseSchema
+  │   │   └── premium.py      # PremiumRequestSchema, PremiumResponseSchema
+  │   ├── services/
+  │   │   ├── calculator.py   # חישוב לוח סילוקין, חישוב פרמיה לפי טבלת תעריפים
+  │   │   ├── offers.py       # איסוף הצעות לכל חברות הביטוח ע"פ הנתונים
+  │   │   ├── mailer.py       # שליחת מיילים (async via Celery)
+  │   │   └── utils.py        # פונקציות עזר – בדיקת ת.ז., גנראטור מזהים וכד'
+  │   ├── routes/
+  │   │   ├── leads.py        # POST /api/leads , GET /api/leads/{id}
+  │   │   ├── offers.py       # GET /api/offers
+  │   │   ├── premium.py      # GET /api/premium
+  │   │   ├── companies.py    # GET /api/companies
+  │   │   └── health.py       # אופציונלי: GET /api/questions
+  │   ├── tasks.py            # הגדרת משימות Celery: calculate_offers_task, send_email_task
+  │   ├── logging_config.py   # הגדרת structured logging – שימוש ב‑loguru או structlog
+  │   └── utils/
+  │       └── auth.py         # הכנה לאימות משתמשים בעתיד (JWT / OAuth)
+  └── Dockerfile             # לבניית container של הצד‑שרת
+
+3. סכמות נתונים (Pydantic)
+PersonSchema (מבוטח)
+class Person(BaseModel):
+    first_name: constr(strip_whitespace=True, min_length=2)
+    last_name: constr(strip_whitespace=True, min_length=2)
+    id_number: constr(regex=r"^\d{9}$")
+    phone: constr(regex=r"^05\d{8}$")
+    email: EmailStr
+    date_of_birth: date
+    gender: Literal["male", "female"]
+    is_smoker: bool
+    height_cm: conint(ge=130, le=250)
+    weight_kg: conint(ge=30, le=300)
+    marital_status: Literal["single", "married", "divorced", "widowed"]
+    occupation: Optional[str]
+    dangerous_hobby: Optional[str]
+    health_answers: Dict[int, Union[bool, str]]  # תשובה לכל שאלה (1‑18)
+
+MortgageTrack ו‑MortgageSchema
+class MortgageTrack(BaseModel):
+    amount: PositiveFloat
+    interest_type: Literal["fixed", "variable", "prime"]
+    annual_rate: condecimal(gt=0, max_digits=5, decimal_places=2)
+    start_date: date
+    end_date: date
+    loan_type: Literal["spitzer", "bullet", "balloon"]
+
+class Mortgage(BaseModel):
+    start_date: date
+    bank_name: str
+    tracks: List[MortgageTrack]
+
+LeadCreateSchema
+class LeadCreate(BaseModel):
+    mortgage: Mortgage
+    insured_list: List[Person]  # לפחות אחד
+    contact_agreed: bool  # המשתמש מאשר שיצרו עמו קשר
+
+OfferResponseSchema
+class Offer(BaseModel):
+    company_id: str
+    company_name: str
+    first_month_premium: float
+    average_monthly_premium: float
+    total_premium: float
+    max_monthly_premium: float
+
+PremiumRequestSchema & PremiumResponseSchema
+class PremiumRequest(BaseModel):
+    loan_amount: PositiveFloat
+    term_months: conint(ge=12, le=480)
+    age: conint(ge=18, le=75)
+    gender: Literal["male", "female"]
+    is_smoker: bool
+    company_id: str
+
+class PremiumResponse(BaseModel):
+    monthly_premium: float
+
+4. מבנה בסיס הנתונים (MongoDB)
+
+אוסף leads: מסמך לכל ליד. שדות עיקריים:
+
+_id (ObjectId)
+
+created_at: datetime
+
+mortgage: אובייקט Mortgage (נשמר כ־embedded document)
+
+insured_list: רשימת אישים (Embedded)
+
+offers: רשימת הצעות שחושבו (בכל חברה)
+
+status: מחרוזת (pending, quote_sent, purchased)
+
+source: מזהה מקור (לדוגמה Web, mobile)
+
+אינדקסים: לפי created_at להסרת נתונים ישנים; אפשר לשקול compound index על phone ו‑id_number לאיתור כפילויות.
+
+אוספים נוספים: companies (רשימת חברות ביטוח, שמות ולוגו), config (טבלאות תעריפים מאוחסנות במטמון Redis אך ניתן לשמור גיבוי).
+
+5. נקודות קצה (API)
+Method	Route	תיאור	ולידציות	תגובה
+GET	/api/companies	מחזיר רשימת חברות ביטוח (id, name, logo_url).	אין פרמטרים.	200: JSON array.
+GET	/api/premium	מחשב פרמיה חודשית לחודש הראשון עבור חברה ספציפית.	loan_amount>0, term_months בין 12 ל‑480, age ו‑gender ו‑is_smoker ו‑company_id.	200: {"monthly_premium": value}.
+GET	/api/offers	מחשב הצעות עבור כל החברות.	פרמטרים: loan_amount, term_months, age, gender, is_smoker. (אפשר לפצל לפי מבוטח אם יש שניים.)	200: רשימת Offer.
+POST	/api/leads	יצירת ליד חדש.	גוף JSON לפי LeadCreate. עושה ולידציה מעמיקה, שומר במסד, מפעיל משימה לחשב הצעות מלאות ולשלוח מייל.	201: {"lead_id": ...}.
+GET	/api/leads/{lead_id}	מחזיר את סטטוס הליד וההצעות שחושבו (למשל לאחר שליחת מייל).	בדיקת תקינות מזהה ואישור הרשאות (בעתיד).	200: Lead data ללא פרטי כרטיס.
+POST	/api/purchase	קבלת פרטי תשלום והשלמת רכישה.	lead_id, card_token (המערכת לא שומרת כרטיס ישיר, אלא טוקן מספק סליקה), שדות כתובת.	200: אישור רכישה/שגיאה.
+GET	/api/questions (אופציונלי)	מחזיר רשימת שאלות הבריאות (1‑18) ותיאוריהן. מאפשר ל‑Client להציג טפסים דינמיים.	אין.	200: JSON array.
+6. אלגוריתם חישוב הפרמיה
+
+חישוב לוח סילוקין:
+
+ריבית חודשית r = (1 + R)^(1/12) - 1.
+
+החזר חודשי בשיטת שפיצר: A = P * r / (1 - (1+r)^(-N)), כאשר P סכום הלוואה, R ריבית שנתית, N מספר החודשים.
+
+יוצרים לולאה על חודשים 1..N כדי לחשב עבור כל חודש את הריבית (balance*r), הקרן (A - interest) ויתרה חדשה (balance - principal). כל 12 חודשים מעדכנים את הגיל ואת היתרה.
+
+חישוב פרמיה לכל חברה:
+
+טבלת התעריפים (מתוך קובץ אקסל) מספקת פרמיה חודשית לחודש הראשון עבור 100,000 ₪ לכל שילוב של גיל, מין ועישון. לדוגמה: לגבר בן 20 שאינו מעשן, הפרמיה בחברת "הכשרה" היא 6.25 ₪
+base44.com
+.
+
+מחשבים יחס סכום ההלוואה: factor = balance_year / 100000.
+
+לכל שנה k מתוך term_months/12:
+
+גיל מתעדכן: age_k = age_start + (k - 1).
+
+שולפים מהטבלה את הפרמיה הבסיסית עבור (age_k, gender, is_smoker, company_id).
+
+מחלקים את הפרמיה ל־12 חודשים: premium_month_k = tariff * factor.
+
+סוכמים את כל החודשים לקבלת total_premium, ממוצע חודש (average_monthly = total_premium / term_months), הפרמיה החודשית הגדולה ביותר (max_monthly), ופרמיה לחודש הראשון.
+
+החזרה ללקוח: כל הצעה כוללת את השדות הללו לצד שם החברה. ניתן להזמין מספר הצעות לפי דרישה.
+
+7. ולידציה ואבטחה
+
+כל DTO מאומת ב‑Pydantic; שגיאות מחזירות HTTP 422 עם מידע מפורט.
+
+בדיקת ID ישראלי (checksum), בדיקת טלפון, טווחי גיל (18–75), סכומים וריביות.
+
+הגדרת CORS: הרשאת origin של האפליקציה בלבד.
+
+הגבלת קצב (rate‑limit) לפי כתובת IP או token באמצעות Redis.
+
+שימוש ב‑HTTPS וב‑HTTPOnly cookies או JWT לצורך אימות משתמשים עתידי.
+
+שמירת סודות במשתני סביבה ולא בקוד.
+
+Structured logging עם מזהה request – כל לוג בפורמט JSON הכולל timestamp, route, status, duration.
+
+8. משימות רקע (Celery + RabbitMQ)
+
+calculate_offers_task(lead_id) – מופעל מיד אחרי יצירת ליד. הטסק טוען את הליד, מחשב את כל ההצעות, מעדכן את הליד במסד הנתונים ושולח מייל ללקוח ולמוקד עם הצעות מפורטות.
+
+send_email_task(to, subject, body) – משימה לשליחת הודעות (SMTP או שירות Mailgun). מחזורי retry וטיפול בשגיאות.
+
+משימות מוגדרות כ־async כדי לא לעכב את תהליך יצירת הליד.
+
+9. פריסה (Deployment)
+
+Dockerfile מייצר Image הכולל Python, התקנת תלות (pip install -r requirements.txt) והפעלה של Uvicorn.
+
+Kubernetes או Docker Compose: שירות API, שירות Celery workers, שירות RabbitMQ, שירות Redis ו־MongoDB.
+
+monitoring עם Prometheus (metrics של FastAPI), Grafana ו־ELK/Kibana ללוגים.
+
+10. הרחבות עתידיות
+
+הוספת endpoints ל‑authentication (register/login) ושמירת משתמשים בטבלה נפרדת.
+
+הרחבה לביטוח מבנה: הוספת טבלאות תעריפים נוספות, סכמות חדשות ואלגוריתם נוסף.
+
+יצירת מסמכי PDF עם הצעות (שימוש בספריית reportlab) וחתימת לקוח דיגיטלית.
+
+התממשקות עם ספק סליקה ל‑/api/purchase בעזרת tokenization ואימות תלת‑ממדי.
+
+מסמך זה אמור לספק למפתחים תמונה מלאה של צד השרת: מבנה קוד, מודלים, API, חישובים ומנגנוני האבטחה. ניתן להתאים אותו בקלות לשינויים עתידיים או דרישות חדשות.
