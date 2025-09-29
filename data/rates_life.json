@@ -1,0 +1,1885 @@
+[
+  {
+    "age": 20,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 6.25
+  },
+  {
+    "age": 20,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "FNX",
+    "rate_per_100k": 6.08
+  },
+  {
+    "age": 20,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "HAREL",
+    "rate_per_100k": 7.58
+  },
+  {
+    "age": 20,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "CLAL",
+    "rate_per_100k": 6.08
+  },
+  {
+    "age": 20,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 6.0
+  },
+  {
+    "age": 20,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "MENORA",
+    "rate_per_100k": 6.73
+  },
+  {
+    "age": 20,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "AYALON",
+    "rate_per_100k": 6.0
+  },
+  {
+    "age": 20,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 9.25
+  },
+  {
+    "age": 20,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "FNX",
+    "rate_per_100k": 8.75
+  },
+  {
+    "age": 20,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "HAREL",
+    "rate_per_100k": 9.42
+  },
+  {
+    "age": 20,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "CLAL",
+    "rate_per_100k": 8.68
+  },
+  {
+    "age": 20,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 8.83
+  },
+  {
+    "age": 20,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "MENORA",
+    "rate_per_100k": 8.68
+  },
+  {
+    "age": 20,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "AYALON",
+    "rate_per_100k": 8.75
+  },
+  {
+    "age": 20,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 4.25
+  },
+  {
+    "age": 20,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "FNX",
+    "rate_per_100k": 5.83
+  },
+  {
+    "age": 20,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "HAREL",
+    "rate_per_100k": 5.42
+  },
+  {
+    "age": 20,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "CLAL",
+    "rate_per_100k": 5.26
+  },
+  {
+    "age": 20,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 3.1
+  },
+  {
+    "age": 20,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "MENORA",
+    "rate_per_100k": 4.53
+  },
+  {
+    "age": 20,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "AYALON",
+    "rate_per_100k": 3.1
+  },
+  {
+    "age": 20,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 5.83
+  },
+  {
+    "age": 20,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "FNX",
+    "rate_per_100k": 8.33
+  },
+  {
+    "age": 20,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "HAREL",
+    "rate_per_100k": 6.5
+  },
+  {
+    "age": 20,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "CLAL",
+    "rate_per_100k": 6.9
+  },
+  {
+    "age": 20,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 6.15
+  },
+  {
+    "age": 20,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "MENORA",
+    "rate_per_100k": 5.73
+  },
+  {
+    "age": 20,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "AYALON",
+    "rate_per_100k": 4.67
+  },
+  {
+    "age": 21,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 6.75
+  },
+  {
+    "age": 21,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "FNX",
+    "rate_per_100k": 6.08
+  },
+  {
+    "age": 21,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "HAREL",
+    "rate_per_100k": 7.5
+  },
+  {
+    "age": 21,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "CLAL",
+    "rate_per_100k": 6.08
+  },
+  {
+    "age": 21,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 6.0
+  },
+  {
+    "age": 21,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "MENORA",
+    "rate_per_100k": 6.45
+  },
+  {
+    "age": 21,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "AYALON",
+    "rate_per_100k": 6.0
+  },
+  {
+    "age": 21,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 10.17
+  },
+  {
+    "age": 21,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "FNX",
+    "rate_per_100k": 8.75
+  },
+  {
+    "age": 21,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "HAREL",
+    "rate_per_100k": 9.33
+  },
+  {
+    "age": 21,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "CLAL",
+    "rate_per_100k": 8.68
+  },
+  {
+    "age": 21,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 8.83
+  },
+  {
+    "age": 21,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "MENORA",
+    "rate_per_100k": 8.51
+  },
+  {
+    "age": 21,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 4.17
+  },
+  {
+    "age": 21,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "FNX",
+    "rate_per_100k": 5.83
+  },
+  {
+    "age": 21,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "HAREL",
+    "rate_per_100k": 5.42
+  },
+  {
+    "age": 21,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "CLAL",
+    "rate_per_100k": 5.26
+  },
+  {
+    "age": 21,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 3.1
+  },
+  {
+    "age": 21,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "MENORA",
+    "rate_per_100k": 4.53
+  },
+  {
+    "age": 21,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 5.67
+  },
+  {
+    "age": 21,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "FNX",
+    "rate_per_100k": 8.33
+  },
+  {
+    "age": 21,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "HAREL",
+    "rate_per_100k": 6.5
+  },
+  {
+    "age": 21,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "CLAL",
+    "rate_per_100k": 6.9
+  },
+  {
+    "age": 21,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 6.15
+  },
+  {
+    "age": 21,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "MENORA",
+    "rate_per_100k": 5.73
+  },
+  {
+    "age": 22,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 7.08
+  },
+  {
+    "age": 22,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "FNX",
+    "rate_per_100k": 6.08
+  },
+  {
+    "age": 22,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "HAREL",
+    "rate_per_100k": 7.33
+  },
+  {
+    "age": 22,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "CLAL",
+    "rate_per_100k": 6.08
+  },
+  {
+    "age": 22,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 6.0
+  },
+  {
+    "age": 22,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "MENORA",
+    "rate_per_100k": 6.51
+  },
+  {
+    "age": 22,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 10.75
+  },
+  {
+    "age": 22,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "FNX",
+    "rate_per_100k": 8.75
+  },
+  {
+    "age": 22,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "HAREL",
+    "rate_per_100k": 9.25
+  },
+  {
+    "age": 22,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "CLAL",
+    "rate_per_100k": 8.68
+  },
+  {
+    "age": 22,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 8.83
+  },
+  {
+    "age": 22,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "MENORA",
+    "rate_per_100k": 8.52
+  },
+  {
+    "age": 22,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 4.17
+  },
+  {
+    "age": 22,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "FNX",
+    "rate_per_100k": 5.83
+  },
+  {
+    "age": 22,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "HAREL",
+    "rate_per_100k": 5.42
+  },
+  {
+    "age": 22,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "CLAL",
+    "rate_per_100k": 5.26
+  },
+  {
+    "age": 22,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 3.1
+  },
+  {
+    "age": 22,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "MENORA",
+    "rate_per_100k": 4.53
+  },
+  {
+    "age": 22,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 5.58
+  },
+  {
+    "age": 22,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "FNX",
+    "rate_per_100k": 8.33
+  },
+  {
+    "age": 22,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "HAREL",
+    "rate_per_100k": 6.5
+  },
+  {
+    "age": 22,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "CLAL",
+    "rate_per_100k": 6.9
+  },
+  {
+    "age": 22,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 6.15
+  },
+  {
+    "age": 22,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "MENORA",
+    "rate_per_100k": 5.73
+  },
+  {
+    "age": 23,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 7.33
+  },
+  {
+    "age": 23,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "FNX",
+    "rate_per_100k": 6.08
+  },
+  {
+    "age": 23,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "HAREL",
+    "rate_per_100k": 7.25
+  },
+  {
+    "age": 23,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "CLAL",
+    "rate_per_100k": 6.08
+  },
+  {
+    "age": 23,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 6.0
+  },
+  {
+    "age": 23,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "MENORA",
+    "rate_per_100k": 6.34
+  },
+  {
+    "age": 23,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 11.17
+  },
+  {
+    "age": 23,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "FNX",
+    "rate_per_100k": 8.75
+  },
+  {
+    "age": 23,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "HAREL",
+    "rate_per_100k": 9.25
+  },
+  {
+    "age": 23,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "CLAL",
+    "rate_per_100k": 8.68
+  },
+  {
+    "age": 23,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 8.83
+  },
+  {
+    "age": 23,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "MENORA",
+    "rate_per_100k": 8.36
+  },
+  {
+    "age": 23,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 4.17
+  },
+  {
+    "age": 23,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "FNX",
+    "rate_per_100k": 5.83
+  },
+  {
+    "age": 23,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "HAREL",
+    "rate_per_100k": 5.42
+  },
+  {
+    "age": 23,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "CLAL",
+    "rate_per_100k": 5.26
+  },
+  {
+    "age": 23,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 3.1
+  },
+  {
+    "age": 23,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "MENORA",
+    "rate_per_100k": 4.53
+  },
+  {
+    "age": 23,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 5.5
+  },
+  {
+    "age": 23,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "FNX",
+    "rate_per_100k": 8.33
+  },
+  {
+    "age": 23,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "HAREL",
+    "rate_per_100k": 6.5
+  },
+  {
+    "age": 23,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "CLAL",
+    "rate_per_100k": 6.9
+  },
+  {
+    "age": 23,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 6.15
+  },
+  {
+    "age": 23,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "MENORA",
+    "rate_per_100k": 5.73
+  },
+  {
+    "age": 24,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 7.42
+  },
+  {
+    "age": 24,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "FNX",
+    "rate_per_100k": 6.08
+  },
+  {
+    "age": 24,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "HAREL",
+    "rate_per_100k": 7.08
+  },
+  {
+    "age": 24,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "CLAL",
+    "rate_per_100k": 6.08
+  },
+  {
+    "age": 24,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 6.0
+  },
+  {
+    "age": 24,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "MENORA",
+    "rate_per_100k": 6.18
+  },
+  {
+    "age": 24,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 11.17
+  },
+  {
+    "age": 24,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "FNX",
+    "rate_per_100k": 8.75
+  },
+  {
+    "age": 24,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "HAREL",
+    "rate_per_100k": 9.17
+  },
+  {
+    "age": 24,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "CLAL",
+    "rate_per_100k": 8.68
+  },
+  {
+    "age": 24,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 8.83
+  },
+  {
+    "age": 24,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "MENORA",
+    "rate_per_100k": 8.3
+  },
+  {
+    "age": 24,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 4.17
+  },
+  {
+    "age": 24,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "FNX",
+    "rate_per_100k": 5.83
+  },
+  {
+    "age": 24,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "HAREL",
+    "rate_per_100k": 5.42
+  },
+  {
+    "age": 24,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "CLAL",
+    "rate_per_100k": 5.26
+  },
+  {
+    "age": 24,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 3.1
+  },
+  {
+    "age": 24,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "MENORA",
+    "rate_per_100k": 4.53
+  },
+  {
+    "age": 24,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 5.5
+  },
+  {
+    "age": 24,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "FNX",
+    "rate_per_100k": 8.33
+  },
+  {
+    "age": 24,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "HAREL",
+    "rate_per_100k": 6.5
+  },
+  {
+    "age": 24,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "CLAL",
+    "rate_per_100k": 6.97
+  },
+  {
+    "age": 24,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 6.15
+  },
+  {
+    "age": 24,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "MENORA",
+    "rate_per_100k": 5.73
+  },
+  {
+    "age": 25,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 7.33
+  },
+  {
+    "age": 25,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "FNX",
+    "rate_per_100k": 6.08
+  },
+  {
+    "age": 25,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "HAREL",
+    "rate_per_100k": 7.0
+  },
+  {
+    "age": 25,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "CLAL",
+    "rate_per_100k": 6.14
+  },
+  {
+    "age": 25,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 6.0
+  },
+  {
+    "age": 25,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "MENORA",
+    "rate_per_100k": 6.07
+  },
+  {
+    "age": 25,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 11.0
+  },
+  {
+    "age": 25,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "FNX",
+    "rate_per_100k": 8.75
+  },
+  {
+    "age": 25,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "HAREL",
+    "rate_per_100k": 9.08
+  },
+  {
+    "age": 25,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "CLAL",
+    "rate_per_100k": 8.74
+  },
+  {
+    "age": 25,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 8.83
+  },
+  {
+    "age": 25,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "MENORA",
+    "rate_per_100k": 8.25
+  },
+  {
+    "age": 25,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 4.17
+  },
+  {
+    "age": 25,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "FNX",
+    "rate_per_100k": 5.83
+  },
+  {
+    "age": 25,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "HAREL",
+    "rate_per_100k": 5.42
+  },
+  {
+    "age": 25,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "CLAL",
+    "rate_per_100k": 5.32
+  },
+  {
+    "age": 25,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 3.1
+  },
+  {
+    "age": 25,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "MENORA",
+    "rate_per_100k": 4.53
+  },
+  {
+    "age": 25,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 5.5
+  },
+  {
+    "age": 25,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "FNX",
+    "rate_per_100k": 8.33
+  },
+  {
+    "age": 25,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "HAREL",
+    "rate_per_100k": 6.5
+  },
+  {
+    "age": 25,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "CLAL",
+    "rate_per_100k": 6.97
+  },
+  {
+    "age": 25,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 6.15
+  },
+  {
+    "age": 25,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "MENORA",
+    "rate_per_100k": 5.73
+  },
+  {
+    "age": 26,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 7.08
+  },
+  {
+    "age": 26,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "FNX",
+    "rate_per_100k": 6.08
+  },
+  {
+    "age": 26,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "HAREL",
+    "rate_per_100k": 6.92
+  },
+  {
+    "age": 26,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "CLAL",
+    "rate_per_100k": 6.14
+  },
+  {
+    "age": 26,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 6.0
+  },
+  {
+    "age": 26,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "MENORA",
+    "rate_per_100k": 5.85
+  },
+  {
+    "age": 26,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 10.58
+  },
+  {
+    "age": 26,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "FNX",
+    "rate_per_100k": 8.75
+  },
+  {
+    "age": 26,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "HAREL",
+    "rate_per_100k": 9.08
+  },
+  {
+    "age": 26,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "CLAL",
+    "rate_per_100k": 8.8
+  },
+  {
+    "age": 26,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 8.83
+  },
+  {
+    "age": 26,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "MENORA",
+    "rate_per_100k": 8.18
+  },
+  {
+    "age": 26,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 4.17
+  },
+  {
+    "age": 26,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "FNX",
+    "rate_per_100k": 5.83
+  },
+  {
+    "age": 26,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "HAREL",
+    "rate_per_100k": 5.5
+  },
+  {
+    "age": 26,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "CLAL",
+    "rate_per_100k": 5.32
+  },
+  {
+    "age": 26,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 3.1
+  },
+  {
+    "age": 26,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "MENORA",
+    "rate_per_100k": 4.58
+  },
+  {
+    "age": 26,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 5.42
+  },
+  {
+    "age": 26,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "FNX",
+    "rate_per_100k": 8.33
+  },
+  {
+    "age": 26,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "HAREL",
+    "rate_per_100k": 6.5
+  },
+  {
+    "age": 26,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "CLAL",
+    "rate_per_100k": 6.97
+  },
+  {
+    "age": 26,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 6.15
+  },
+  {
+    "age": 26,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "MENORA",
+    "rate_per_100k": 5.73
+  },
+  {
+    "age": 27,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 6.75
+  },
+  {
+    "age": 27,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "FNX",
+    "rate_per_100k": 6.08
+  },
+  {
+    "age": 27,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "HAREL",
+    "rate_per_100k": 6.75
+  },
+  {
+    "age": 27,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "CLAL",
+    "rate_per_100k": 6.14
+  },
+  {
+    "age": 27,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 6.0
+  },
+  {
+    "age": 27,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "MENORA",
+    "rate_per_100k": 5.8
+  },
+  {
+    "age": 27,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 9.92
+  },
+  {
+    "age": 27,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "FNX",
+    "rate_per_100k": 8.75
+  },
+  {
+    "age": 27,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "HAREL",
+    "rate_per_100k": 9.0
+  },
+  {
+    "age": 27,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "CLAL",
+    "rate_per_100k": 8.8
+  },
+  {
+    "age": 27,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 8.83
+  },
+  {
+    "age": 27,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "MENORA",
+    "rate_per_100k": 8.1
+  },
+  {
+    "age": 27,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 4.17
+  },
+  {
+    "age": 27,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "FNX",
+    "rate_per_100k": 5.83
+  },
+  {
+    "age": 27,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "HAREL",
+    "rate_per_100k": 5.5
+  },
+  {
+    "age": 27,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "CLAL",
+    "rate_per_100k": 5.38
+  },
+  {
+    "age": 27,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 3.1
+  },
+  {
+    "age": 27,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "MENORA",
+    "rate_per_100k": 4.58
+  },
+  {
+    "age": 27,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 5.33
+  },
+  {
+    "age": 27,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "FNX",
+    "rate_per_100k": 8.33
+  },
+  {
+    "age": 27,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "HAREL",
+    "rate_per_100k": 6.67
+  },
+  {
+    "age": 27,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "CLAL",
+    "rate_per_100k": 7.03
+  },
+  {
+    "age": 27,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 6.15
+  },
+  {
+    "age": 27,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "MENORA",
+    "rate_per_100k": 5.85
+  },
+  {
+    "age": 28,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 6.42
+  },
+  {
+    "age": 28,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "FNX",
+    "rate_per_100k": 6.08
+  },
+  {
+    "age": 28,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "HAREL",
+    "rate_per_100k": 6.58
+  },
+  {
+    "age": 28,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "CLAL",
+    "rate_per_100k": 6.14
+  },
+  {
+    "age": 28,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 6.0
+  },
+  {
+    "age": 28,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "MENORA",
+    "rate_per_100k": 5.92
+  },
+  {
+    "age": 28,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 9.17
+  },
+  {
+    "age": 28,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "FNX",
+    "rate_per_100k": 8.75
+  },
+  {
+    "age": 28,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "HAREL",
+    "rate_per_100k": 8.92
+  },
+  {
+    "age": 28,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "CLAL",
+    "rate_per_100k": 8.8
+  },
+  {
+    "age": 28,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 8.83
+  },
+  {
+    "age": 28,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "MENORA",
+    "rate_per_100k": 8.08
+  },
+  {
+    "age": 28,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 4.08
+  },
+  {
+    "age": 28,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "FNX",
+    "rate_per_100k": 5.83
+  },
+  {
+    "age": 28,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "HAREL",
+    "rate_per_100k": 5.58
+  },
+  {
+    "age": 28,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "CLAL",
+    "rate_per_100k": 5.38
+  },
+  {
+    "age": 28,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 3.1
+  },
+  {
+    "age": 28,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "MENORA",
+    "rate_per_100k": 4.63
+  },
+  {
+    "age": 28,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 5.25
+  },
+  {
+    "age": 28,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "FNX",
+    "rate_per_100k": 8.33
+  },
+  {
+    "age": 28,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "HAREL",
+    "rate_per_100k": 6.75
+  },
+  {
+    "age": 28,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "CLAL",
+    "rate_per_100k": 7.03
+  },
+  {
+    "age": 28,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 6.15
+  },
+  {
+    "age": 28,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "MENORA",
+    "rate_per_100k": 5.85
+  },
+  {
+    "age": 29,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 6.0
+  },
+  {
+    "age": 29,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "FNX",
+    "rate_per_100k": 6.08
+  },
+  {
+    "age": 29,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "HAREL",
+    "rate_per_100k": 6.5
+  },
+  {
+    "age": 29,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "CLAL",
+    "rate_per_100k": 6.14
+  },
+  {
+    "age": 29,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 6.0
+  },
+  {
+    "age": 29,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "MENORA",
+    "rate_per_100k": 6.04
+  },
+  {
+    "age": 29,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 8.5
+  },
+  {
+    "age": 29,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "FNX",
+    "rate_per_100k": 8.75
+  },
+  {
+    "age": 29,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "HAREL",
+    "rate_per_100k": 8.83
+  },
+  {
+    "age": 29,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "CLAL",
+    "rate_per_100k": 8.8
+  },
+  {
+    "age": 29,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 8.83
+  },
+  {
+    "age": 29,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "MENORA",
+    "rate_per_100k": 8.02
+  },
+  {
+    "age": 29,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 4.08
+  },
+  {
+    "age": 29,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "FNX",
+    "rate_per_100k": 5.83
+  },
+  {
+    "age": 29,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "HAREL",
+    "rate_per_100k": 5.58
+  },
+  {
+    "age": 29,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "CLAL",
+    "rate_per_100k": 5.38
+  },
+  {
+    "age": 29,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 3.1
+  },
+  {
+    "age": 29,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "MENORA",
+    "rate_per_100k": 4.73
+  },
+  {
+    "age": 29,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 5.25
+  },
+  {
+    "age": 29,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "FNX",
+    "rate_per_100k": 8.33
+  },
+  {
+    "age": 29,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "HAREL",
+    "rate_per_100k": 6.92
+  },
+  {
+    "age": 29,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "CLAL",
+    "rate_per_100k": 7.09
+  },
+  {
+    "age": 29,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 6.15
+  },
+  {
+    "age": 29,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "MENORA",
+    "rate_per_100k": 6.13
+  },
+  {
+    "age": 30,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 5.75
+  },
+  {
+    "age": 30,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "FNX",
+    "rate_per_100k": 6.08
+  },
+  {
+    "age": 30,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "HAREL",
+    "rate_per_100k": 6.58
+  },
+  {
+    "age": 30,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "CLAL",
+    "rate_per_100k": 6.14
+  },
+  {
+    "age": 30,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 6.0
+  },
+  {
+    "age": 30,
+    "gender": "male",
+    "smoker": "non_smoker",
+    "company": "MENORA",
+    "rate_per_100k": 6.13
+  },
+  {
+    "age": 30,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 8.08
+  },
+  {
+    "age": 30,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "FNX",
+    "rate_per_100k": 8.75
+  },
+  {
+    "age": 30,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "HAREL",
+    "rate_per_100k": 8.83
+  },
+  {
+    "age": 30,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "CLAL",
+    "rate_per_100k": 8.81
+  },
+  {
+    "age": 30,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 8.83
+  },
+  {
+    "age": 30,
+    "gender": "male",
+    "smoker": "smoker",
+    "company": "MENORA",
+    "rate_per_100k": 7.94
+  },
+  {
+    "age": 30,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 4.17
+  },
+  {
+    "age": 30,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "FNX",
+    "rate_per_100k": 5.83
+  },
+  {
+    "age": 30,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "HAREL",
+    "rate_per_100k": 5.58
+  },
+  {
+    "age": 30,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "CLAL",
+    "rate_per_100k": 5.38
+  },
+  {
+    "age": 30,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 3.1
+  },
+  {
+    "age": 30,
+    "gender": "female",
+    "smoker": "non_smoker",
+    "company": "MENORA",
+    "rate_per_100k": 4.94
+  },
+  {
+    "age": 30,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "HACHSHARA",
+    "rate_per_100k": 5.42
+  },
+  {
+    "age": 30,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "FNX",
+    "rate_per_100k": 8.33
+  },
+  {
+    "age": 30,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "HAREL",
+    "rate_per_100k": 6.92
+  },
+  {
+    "age": 30,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "CLAL",
+    "rate_per_100k": 7.12
+  },
+  {
+    "age": 30,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "MIGDAL",
+    "rate_per_100k": 6.15
+  },
+  {
+    "age": 30,
+    "gender": "female",
+    "smoker": "smoker",
+    "company": "MENORA",
+    "rate_per_100k": 6.34
+  }
+]
