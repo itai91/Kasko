@@ -6,34 +6,24 @@
       { "from_year": 3, "to_year": 3, "factor": 0.30 },
       { "from_year": 4, "to_year": 4, "factor": 0.25 },
       { "from_year": 5, "to_year": 6, "factor": 0.15 },
-      { "from_year": 13, "to_year": null, "factor": 1.00 },
-      { "from_year": 1, "to_year": 15, "factor": 0.30 },
-      { "from_year": 16, "to_year": 20, "factor": 0.20 }
+      { "from_year": 13, "to_year": null, "factor": 1.00 }
     ],
     "הפניקס": [
       { "from_year": 1, "to_year": 1, "factor": 0.65 },
       { "from_year": 2, "to_year": 2, "factor": 0.50 },
       { "from_year": 3, "to_year": 3, "factor": 0.35 },
       { "from_year": 4, "to_year": 4, "factor": 0.25 },
-      { "from_year": 5, "to_year": 6, "factor": 0.15 },
-      { "from_year": 7, "to_year": null, "factor": 0.00 }
+      { "from_year": 5, "to_year": 6, "factor": 0.15 }
     ],
     "הראל": [
       { "from_year": 1, "to_year": 2, "factor": 0.55 },
       { "from_year": 3, "to_year": 6, "factor": 0.35 },
-      { "from_year": 13, "to_year": null, "factor": 1.00 },
-      { "from_year": 1, "to_year": 2, "factor": 0.45 },
-      { "from_year": 3, "to_year": 6, "factor": 0.25 },
       { "from_year": 13, "to_year": null, "factor": 1.00 }
     ],
     "כלל": [
       { "from_year": 1, "to_year": 1, "factor": 0.30 },
       { "from_year": 2, "to_year": 6, "factor": 0.15 },
-      { "from_year": 15, "to_year": null, "factor": 1.00 },
-      { "from_year": 1, "to_year": 1, "factor": 0.40 },
-      { "from_year": 2, "to_year": 2, "factor": 0.30 },
-      { "from_year": 3, "to_year": 6, "factor": 0.20 },
-      { "from_year": 15, "to_year": null, "factor": 0.45 }
+      { "from_year": 15, "to_year": null, "factor": 1.00 }
     ],
     "מגדל": [
       { "from_year": 1, "to_year": 1, "factor": 0.50 },
