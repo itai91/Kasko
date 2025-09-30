@@ -1,15 +1,34 @@
 {
   "amount_per_sqm": 6500,
   "unit_amount": 100000,
-  "currency": "ILS",
-  "calculation": "monthly_fixed",
   "companies": {
-    "הכשרה": { "per_100k": 11.5, "rounding": "half_up", "excel": "ROUND(Amount/100000*11.5, 0)" },
-    "הפניקס": { "per_100k": 12.5, "rounding": "floor",    "excel": "ROUNDDOWN(Amount/100000*12.5, 0)" },
-    "הראל":   { "per_100k": 11.3333333333, "rounding": "floor", "excel": "ROUNDDOWN(Amount/100000*(34/3), 0)" },
-    "כלל":    { "per_100k": 10.5, "rounding": "half_up", "excel": "ROUND(Amount/100000*10.5, 0)" },
-    "מגדל":   { "per_100k": 10,   "rounding": "none",    "excel": "Amount/100000*10" },
-    "מנורה":  { "per_100k": 13.3333333333, "rounding": "floor", "excel": "ROUNDDOWN(Amount/100000*(40/3), 0)" },
-    "איילון": { "per_100k": 12, "rounding": "half_up", "excel": "ROUND(Amount/100000*12, 0)" }
+    "איילון": {
+      "per_100k": 12.0,
+      "rounding": "half_up"
+    },
+    "הכשרה": {
+      "per_100k": 11.5,
+      "rounding": "half_up"
+    },
+    "הפניקס": {
+      "per_100k": 12.5,
+      "rounding": "floor"
+    },
+    "הראל": {
+      "per_100k": 11.33,
+      "rounding": "floor"
+    },
+    "כלל": {
+      "per_100k": 10.5,
+      "rounding": "half_up"
+    },
+    "מגדל": {
+      "per_100k": 10.0,
+      "rounding": "none"
+    },
+    "מנורה": {
+      "per_100k": 13.3333333333,
+      "rounding": "floor"
+    }
   }
 }
