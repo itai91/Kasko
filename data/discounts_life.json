@@ -1,57 +1,53 @@
 {
-  "HACHSHARA": {
-    "default_track": "ברירת מחדל",
-    "tracks": [
-      {
-        "name": "ברירת מחדל",
-        "factors": [
-          { "years": "1-5",  "factor": 0.92 },
-          { "years": "6-10", "factor": 0.95 },
-          { "years": "11-30","factor": 1 }
-        ]
-      },
-      {
-        "name": "מסלול אלטרנטיבי",
-        "factors": [
-          { "years": "1-30", "factor": 0.9 }
-        ]
-      }
+  "currency": "ILS",
+  "applies_to": "life",
+  "scope": "default_track_per_company",
+  "rules": {
+    "הכשרה": [
+      { "from_year": 1, "to_year": 1, "factor": 0.5 },
+      { "from_year": 2, "to_year": 2, "factor": 0.4 },
+      { "from_year": 3, "to_year": 3, "factor": 0.3 },
+      { "from_year": 4, "to_year": 4, "factor": 0.25 },
+      { "from_year": 5, "to_year": 6, "factor": 0.15 },
+      { "from_year": 13, "to_year": null, "factor": 1.0 }
+    ],
+    "הפניקס": [
+      { "from_year": 1, "to_year": 1, "factor": 0.65 },
+      { "from_year": 2, "to_year": 2, "factor": 0.5 },
+      { "from_year": 3, "to_year": 3, "factor": 0.35 },
+      { "from_year": 4, "to_year": 4, "factor": 0.25 },
+      { "from_year": 5, "to_year": 6, "factor": 0.15 }
+    ],
+    "הראל": [
+      { "from_year": 1, "to_year": 2, "factor": 0.55 },
+      { "from_year": 3, "to_year": 6, "factor": 0.35 },
+      { "from_year": 13, "to_year": null, "factor": 1.0 }
+    ],
+    "כלל": [
+      { "from_year": 1, "to_year": 1, "factor": 0.3 },
+      { "from_year": 2, "to_year": 6, "factor": 0.15 },
+      { "from_year": 15, "to_year": null, "factor": 1.0 }
+    ],
+    "מגדל": [
+      { "from_year": 1, "to_year": 1, "factor": 0.5 },
+      { "from_year": 2, "to_year": 2, "factor": 0.35 },
+      { "from_year": 3, "to_year": 6, "factor": 0.2 },
+      { "from_year": 15, "to_year": null, "factor": 0.55 }
+    ],
+    "מנורה": [
+      { "from_year": 1, "to_year": 1, "factor": 0.6 },
+      { "from_year": 2, "to_year": 2, "factor": 0.5 },
+      { "from_year": 3, "to_year": 3, "factor": 0.4 },
+      { "from_year": 4, "to_year": 4, "factor": 0.3 },
+      { "from_year": 5, "to_year": 5, "factor": 0.2 },
+      { "from_year": 6, "to_year": 30, "factor": 0.15 }
+    ],
+    "איילון": [
+      { "from_year": 1, "to_year": 1, "factor": 0.4 },
+      { "from_year": 2, "to_year": 2, "factor": 0.2 },
+      { "from_year": 3, "to_year": 6, "factor": 0.15 },
+      { "from_year": 13, "to_year": null, "factor": 1.0 }
     ]
   },
-  "HAREL": {
-    "default_track": 1,
-    "tracks": [
-      { "name": "ברירת מחדל", "factors": [ { "years": "1-30", "factor": 1 } ] }
-    ]
-  },
-  "CLAL": {
-    "default_track": 1,
-    "tracks": [
-      { "name": "ברירת מחדל", "factors": [ { "years": "1-30", "factor": 1 } ] }
-    ]
-  },
-  "MIGDAL": {
-    "default_track": 1,
-    "tracks": [
-      { "name": "ברירת מחדל", "factors": [ { "years": "1-30", "factor": 1 } ] }
-    ]
-  },
-  "MENORA": {
-    "default_track": 1,
-    "tracks": [
-      { "name": "ברירת מחדל", "factors": [ { "years": "1-30", "factor": 1 } ] }
-    ]
-  },
-  "AYALON": {
-    "default_track": 1,
-    "tracks": [
-      { "name": "ברירת מחדל", "factors": [ { "years": "1-30", "factor": 1 } ] }
-    ]
-  },
-  "PHOENIX": {
-    "default_track": 1,
-    "tracks": [
-      { "name": "ברירת מחדל", "factors": [ { "years": "1-30", "factor": 1 } ] }
-    ]
-  }
+  "notes": "Apply these multiplicative factors to the base per_100k life rates after computing the premium base for each policy year. If 'to_year' is null, apply until end of policy."
 }
