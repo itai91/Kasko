@@ -1,1885 +1,3614 @@
-[
-  {
-    "age": 20,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 6.25
-  },
-  {
-    "age": 20,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "FNX",
-    "rate_per_100k": 6.08
-  },
-  {
-    "age": 20,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "HAREL",
-    "rate_per_100k": 7.58
-  },
-  {
-    "age": 20,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "CLAL",
-    "rate_per_100k": 6.08
-  },
-  {
-    "age": 20,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 6.0
-  },
-  {
-    "age": 20,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "MENORA",
-    "rate_per_100k": 6.73
-  },
-  {
-    "age": 20,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "AYALON",
-    "rate_per_100k": 6.0
-  },
-  {
-    "age": 20,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 9.25
-  },
-  {
-    "age": 20,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "FNX",
-    "rate_per_100k": 8.75
-  },
-  {
-    "age": 20,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "HAREL",
-    "rate_per_100k": 9.42
-  },
-  {
-    "age": 20,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "CLAL",
-    "rate_per_100k": 8.68
-  },
-  {
-    "age": 20,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 8.83
-  },
-  {
-    "age": 20,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "MENORA",
-    "rate_per_100k": 8.68
-  },
-  {
-    "age": 20,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "AYALON",
-    "rate_per_100k": 8.75
-  },
-  {
-    "age": 20,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 4.25
-  },
-  {
-    "age": 20,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "FNX",
-    "rate_per_100k": 5.83
-  },
-  {
-    "age": 20,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "HAREL",
-    "rate_per_100k": 5.42
-  },
-  {
-    "age": 20,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "CLAL",
-    "rate_per_100k": 5.26
-  },
-  {
-    "age": 20,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 3.1
-  },
-  {
-    "age": 20,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "MENORA",
-    "rate_per_100k": 4.53
-  },
-  {
-    "age": 20,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "AYALON",
-    "rate_per_100k": 3.1
-  },
-  {
-    "age": 20,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 5.83
-  },
-  {
-    "age": 20,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "FNX",
-    "rate_per_100k": 8.33
-  },
-  {
-    "age": 20,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "HAREL",
-    "rate_per_100k": 6.5
-  },
-  {
-    "age": 20,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "CLAL",
-    "rate_per_100k": 6.9
-  },
-  {
-    "age": 20,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 6.15
-  },
-  {
-    "age": 20,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "MENORA",
-    "rate_per_100k": 5.73
-  },
-  {
-    "age": 20,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "AYALON",
-    "rate_per_100k": 4.67
-  },
-  {
-    "age": 21,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 6.75
-  },
-  {
-    "age": 21,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "FNX",
-    "rate_per_100k": 6.08
-  },
-  {
-    "age": 21,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "HAREL",
-    "rate_per_100k": 7.5
-  },
-  {
-    "age": 21,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "CLAL",
-    "rate_per_100k": 6.08
-  },
-  {
-    "age": 21,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 6.0
-  },
-  {
-    "age": 21,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "MENORA",
-    "rate_per_100k": 6.45
-  },
-  {
-    "age": 21,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "AYALON",
-    "rate_per_100k": 6.0
-  },
-  {
-    "age": 21,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 10.17
-  },
-  {
-    "age": 21,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "FNX",
-    "rate_per_100k": 8.75
-  },
-  {
-    "age": 21,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "HAREL",
-    "rate_per_100k": 9.33
-  },
-  {
-    "age": 21,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "CLAL",
-    "rate_per_100k": 8.68
-  },
-  {
-    "age": 21,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 8.83
-  },
-  {
-    "age": 21,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "MENORA",
-    "rate_per_100k": 8.51
-  },
-  {
-    "age": 21,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 4.17
-  },
-  {
-    "age": 21,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "FNX",
-    "rate_per_100k": 5.83
-  },
-  {
-    "age": 21,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "HAREL",
-    "rate_per_100k": 5.42
-  },
-  {
-    "age": 21,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "CLAL",
-    "rate_per_100k": 5.26
-  },
-  {
-    "age": 21,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 3.1
-  },
-  {
-    "age": 21,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "MENORA",
-    "rate_per_100k": 4.53
-  },
-  {
-    "age": 21,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 5.67
-  },
-  {
-    "age": 21,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "FNX",
-    "rate_per_100k": 8.33
-  },
-  {
-    "age": 21,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "HAREL",
-    "rate_per_100k": 6.5
-  },
-  {
-    "age": 21,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "CLAL",
-    "rate_per_100k": 6.9
-  },
-  {
-    "age": 21,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 6.15
-  },
-  {
-    "age": 21,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "MENORA",
-    "rate_per_100k": 5.73
-  },
-  {
-    "age": 22,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 7.08
-  },
-  {
-    "age": 22,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "FNX",
-    "rate_per_100k": 6.08
-  },
-  {
-    "age": 22,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "HAREL",
-    "rate_per_100k": 7.33
-  },
-  {
-    "age": 22,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "CLAL",
-    "rate_per_100k": 6.08
-  },
-  {
-    "age": 22,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 6.0
-  },
-  {
-    "age": 22,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "MENORA",
-    "rate_per_100k": 6.51
-  },
-  {
-    "age": 22,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 10.75
-  },
-  {
-    "age": 22,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "FNX",
-    "rate_per_100k": 8.75
-  },
-  {
-    "age": 22,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "HAREL",
-    "rate_per_100k": 9.25
-  },
-  {
-    "age": 22,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "CLAL",
-    "rate_per_100k": 8.68
-  },
-  {
-    "age": 22,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 8.83
-  },
-  {
-    "age": 22,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "MENORA",
-    "rate_per_100k": 8.52
-  },
-  {
-    "age": 22,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 4.17
-  },
-  {
-    "age": 22,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "FNX",
-    "rate_per_100k": 5.83
-  },
-  {
-    "age": 22,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "HAREL",
-    "rate_per_100k": 5.42
-  },
-  {
-    "age": 22,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "CLAL",
-    "rate_per_100k": 5.26
-  },
-  {
-    "age": 22,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 3.1
-  },
-  {
-    "age": 22,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "MENORA",
-    "rate_per_100k": 4.53
-  },
-  {
-    "age": 22,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 5.58
-  },
-  {
-    "age": 22,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "FNX",
-    "rate_per_100k": 8.33
-  },
-  {
-    "age": 22,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "HAREL",
-    "rate_per_100k": 6.5
-  },
-  {
-    "age": 22,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "CLAL",
-    "rate_per_100k": 6.9
-  },
-  {
-    "age": 22,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 6.15
-  },
-  {
-    "age": 22,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "MENORA",
-    "rate_per_100k": 5.73
-  },
-  {
-    "age": 23,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 7.33
-  },
-  {
-    "age": 23,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "FNX",
-    "rate_per_100k": 6.08
-  },
-  {
-    "age": 23,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "HAREL",
-    "rate_per_100k": 7.25
-  },
-  {
-    "age": 23,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "CLAL",
-    "rate_per_100k": 6.08
-  },
-  {
-    "age": 23,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 6.0
-  },
-  {
-    "age": 23,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "MENORA",
-    "rate_per_100k": 6.34
-  },
-  {
-    "age": 23,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 11.17
-  },
-  {
-    "age": 23,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "FNX",
-    "rate_per_100k": 8.75
-  },
-  {
-    "age": 23,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "HAREL",
-    "rate_per_100k": 9.25
-  },
-  {
-    "age": 23,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "CLAL",
-    "rate_per_100k": 8.68
-  },
-  {
-    "age": 23,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 8.83
-  },
-  {
-    "age": 23,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "MENORA",
-    "rate_per_100k": 8.36
-  },
-  {
-    "age": 23,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 4.17
-  },
-  {
-    "age": 23,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "FNX",
-    "rate_per_100k": 5.83
-  },
-  {
-    "age": 23,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "HAREL",
-    "rate_per_100k": 5.42
-  },
-  {
-    "age": 23,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "CLAL",
-    "rate_per_100k": 5.26
-  },
-  {
-    "age": 23,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 3.1
-  },
-  {
-    "age": 23,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "MENORA",
-    "rate_per_100k": 4.53
-  },
-  {
-    "age": 23,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 5.5
-  },
-  {
-    "age": 23,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "FNX",
-    "rate_per_100k": 8.33
-  },
-  {
-    "age": 23,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "HAREL",
-    "rate_per_100k": 6.5
-  },
-  {
-    "age": 23,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "CLAL",
-    "rate_per_100k": 6.9
-  },
-  {
-    "age": 23,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 6.15
-  },
-  {
-    "age": 23,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "MENORA",
-    "rate_per_100k": 5.73
-  },
-  {
-    "age": 24,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 7.42
-  },
-  {
-    "age": 24,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "FNX",
-    "rate_per_100k": 6.08
-  },
-  {
-    "age": 24,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "HAREL",
-    "rate_per_100k": 7.08
-  },
-  {
-    "age": 24,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "CLAL",
-    "rate_per_100k": 6.08
-  },
-  {
-    "age": 24,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 6.0
-  },
-  {
-    "age": 24,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "MENORA",
-    "rate_per_100k": 6.18
-  },
-  {
-    "age": 24,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 11.17
-  },
-  {
-    "age": 24,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "FNX",
-    "rate_per_100k": 8.75
-  },
-  {
-    "age": 24,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "HAREL",
-    "rate_per_100k": 9.17
-  },
-  {
-    "age": 24,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "CLAL",
-    "rate_per_100k": 8.68
-  },
-  {
-    "age": 24,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 8.83
-  },
-  {
-    "age": 24,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "MENORA",
-    "rate_per_100k": 8.3
-  },
-  {
-    "age": 24,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 4.17
-  },
-  {
-    "age": 24,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "FNX",
-    "rate_per_100k": 5.83
-  },
-  {
-    "age": 24,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "HAREL",
-    "rate_per_100k": 5.42
-  },
-  {
-    "age": 24,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "CLAL",
-    "rate_per_100k": 5.26
-  },
-  {
-    "age": 24,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 3.1
-  },
-  {
-    "age": 24,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "MENORA",
-    "rate_per_100k": 4.53
-  },
-  {
-    "age": 24,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 5.5
-  },
-  {
-    "age": 24,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "FNX",
-    "rate_per_100k": 8.33
-  },
-  {
-    "age": 24,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "HAREL",
-    "rate_per_100k": 6.5
-  },
-  {
-    "age": 24,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "CLAL",
-    "rate_per_100k": 6.97
-  },
-  {
-    "age": 24,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 6.15
-  },
-  {
-    "age": 24,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "MENORA",
-    "rate_per_100k": 5.73
-  },
-  {
-    "age": 25,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 7.33
-  },
-  {
-    "age": 25,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "FNX",
-    "rate_per_100k": 6.08
-  },
-  {
-    "age": 25,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "HAREL",
-    "rate_per_100k": 7.0
-  },
-  {
-    "age": 25,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "CLAL",
-    "rate_per_100k": 6.14
-  },
-  {
-    "age": 25,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 6.0
-  },
-  {
-    "age": 25,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "MENORA",
-    "rate_per_100k": 6.07
-  },
-  {
-    "age": 25,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 11.0
-  },
-  {
-    "age": 25,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "FNX",
-    "rate_per_100k": 8.75
-  },
-  {
-    "age": 25,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "HAREL",
-    "rate_per_100k": 9.08
-  },
-  {
-    "age": 25,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "CLAL",
-    "rate_per_100k": 8.74
-  },
-  {
-    "age": 25,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 8.83
-  },
-  {
-    "age": 25,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "MENORA",
-    "rate_per_100k": 8.25
-  },
-  {
-    "age": 25,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 4.17
-  },
-  {
-    "age": 25,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "FNX",
-    "rate_per_100k": 5.83
-  },
-  {
-    "age": 25,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "HAREL",
-    "rate_per_100k": 5.42
-  },
-  {
-    "age": 25,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "CLAL",
-    "rate_per_100k": 5.32
-  },
-  {
-    "age": 25,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 3.1
-  },
-  {
-    "age": 25,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "MENORA",
-    "rate_per_100k": 4.53
-  },
-  {
-    "age": 25,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 5.5
-  },
-  {
-    "age": 25,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "FNX",
-    "rate_per_100k": 8.33
-  },
-  {
-    "age": 25,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "HAREL",
-    "rate_per_100k": 6.5
-  },
-  {
-    "age": 25,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "CLAL",
-    "rate_per_100k": 6.97
-  },
-  {
-    "age": 25,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 6.15
-  },
-  {
-    "age": 25,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "MENORA",
-    "rate_per_100k": 5.73
-  },
-  {
-    "age": 26,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 7.08
-  },
-  {
-    "age": 26,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "FNX",
-    "rate_per_100k": 6.08
-  },
-  {
-    "age": 26,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "HAREL",
-    "rate_per_100k": 6.92
-  },
-  {
-    "age": 26,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "CLAL",
-    "rate_per_100k": 6.14
-  },
-  {
-    "age": 26,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 6.0
-  },
-  {
-    "age": 26,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "MENORA",
-    "rate_per_100k": 5.85
-  },
-  {
-    "age": 26,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 10.58
-  },
-  {
-    "age": 26,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "FNX",
-    "rate_per_100k": 8.75
-  },
-  {
-    "age": 26,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "HAREL",
-    "rate_per_100k": 9.08
-  },
-  {
-    "age": 26,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "CLAL",
-    "rate_per_100k": 8.8
-  },
-  {
-    "age": 26,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 8.83
-  },
-  {
-    "age": 26,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "MENORA",
-    "rate_per_100k": 8.18
-  },
-  {
-    "age": 26,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 4.17
-  },
-  {
-    "age": 26,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "FNX",
-    "rate_per_100k": 5.83
-  },
-  {
-    "age": 26,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "HAREL",
-    "rate_per_100k": 5.5
-  },
-  {
-    "age": 26,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "CLAL",
-    "rate_per_100k": 5.32
-  },
-  {
-    "age": 26,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 3.1
-  },
-  {
-    "age": 26,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "MENORA",
-    "rate_per_100k": 4.58
-  },
-  {
-    "age": 26,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 5.42
-  },
-  {
-    "age": 26,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "FNX",
-    "rate_per_100k": 8.33
-  },
-  {
-    "age": 26,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "HAREL",
-    "rate_per_100k": 6.5
-  },
-  {
-    "age": 26,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "CLAL",
-    "rate_per_100k": 6.97
-  },
-  {
-    "age": 26,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 6.15
-  },
-  {
-    "age": 26,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "MENORA",
-    "rate_per_100k": 5.73
-  },
-  {
-    "age": 27,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 6.75
-  },
-  {
-    "age": 27,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "FNX",
-    "rate_per_100k": 6.08
-  },
-  {
-    "age": 27,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "HAREL",
-    "rate_per_100k": 6.75
-  },
-  {
-    "age": 27,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "CLAL",
-    "rate_per_100k": 6.14
-  },
-  {
-    "age": 27,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 6.0
-  },
-  {
-    "age": 27,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "MENORA",
-    "rate_per_100k": 5.8
-  },
-  {
-    "age": 27,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 9.92
-  },
-  {
-    "age": 27,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "FNX",
-    "rate_per_100k": 8.75
-  },
-  {
-    "age": 27,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "HAREL",
-    "rate_per_100k": 9.0
-  },
-  {
-    "age": 27,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "CLAL",
-    "rate_per_100k": 8.8
-  },
-  {
-    "age": 27,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 8.83
-  },
-  {
-    "age": 27,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "MENORA",
-    "rate_per_100k": 8.1
-  },
-  {
-    "age": 27,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 4.17
-  },
-  {
-    "age": 27,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "FNX",
-    "rate_per_100k": 5.83
-  },
-  {
-    "age": 27,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "HAREL",
-    "rate_per_100k": 5.5
-  },
-  {
-    "age": 27,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "CLAL",
-    "rate_per_100k": 5.38
-  },
-  {
-    "age": 27,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 3.1
-  },
-  {
-    "age": 27,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "MENORA",
-    "rate_per_100k": 4.58
-  },
-  {
-    "age": 27,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 5.33
-  },
-  {
-    "age": 27,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "FNX",
-    "rate_per_100k": 8.33
-  },
-  {
-    "age": 27,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "HAREL",
-    "rate_per_100k": 6.67
-  },
-  {
-    "age": 27,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "CLAL",
-    "rate_per_100k": 7.03
-  },
-  {
-    "age": 27,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 6.15
-  },
-  {
-    "age": 27,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "MENORA",
-    "rate_per_100k": 5.85
-  },
-  {
-    "age": 28,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 6.42
-  },
-  {
-    "age": 28,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "FNX",
-    "rate_per_100k": 6.08
-  },
-  {
-    "age": 28,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "HAREL",
-    "rate_per_100k": 6.58
-  },
-  {
-    "age": 28,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "CLAL",
-    "rate_per_100k": 6.14
-  },
-  {
-    "age": 28,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 6.0
-  },
-  {
-    "age": 28,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "MENORA",
-    "rate_per_100k": 5.92
-  },
-  {
-    "age": 28,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 9.17
-  },
-  {
-    "age": 28,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "FNX",
-    "rate_per_100k": 8.75
-  },
-  {
-    "age": 28,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "HAREL",
-    "rate_per_100k": 8.92
-  },
-  {
-    "age": 28,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "CLAL",
-    "rate_per_100k": 8.8
-  },
-  {
-    "age": 28,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 8.83
-  },
-  {
-    "age": 28,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "MENORA",
-    "rate_per_100k": 8.08
-  },
-  {
-    "age": 28,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 4.08
-  },
-  {
-    "age": 28,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "FNX",
-    "rate_per_100k": 5.83
-  },
-  {
-    "age": 28,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "HAREL",
-    "rate_per_100k": 5.58
-  },
-  {
-    "age": 28,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "CLAL",
-    "rate_per_100k": 5.38
-  },
-  {
-    "age": 28,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 3.1
-  },
-  {
-    "age": 28,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "MENORA",
-    "rate_per_100k": 4.63
-  },
-  {
-    "age": 28,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 5.25
-  },
-  {
-    "age": 28,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "FNX",
-    "rate_per_100k": 8.33
-  },
-  {
-    "age": 28,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "HAREL",
-    "rate_per_100k": 6.75
-  },
-  {
-    "age": 28,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "CLAL",
-    "rate_per_100k": 7.03
-  },
-  {
-    "age": 28,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 6.15
-  },
-  {
-    "age": 28,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "MENORA",
-    "rate_per_100k": 5.85
-  },
-  {
-    "age": 29,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 6.0
-  },
-  {
-    "age": 29,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "FNX",
-    "rate_per_100k": 6.08
-  },
-  {
-    "age": 29,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "HAREL",
-    "rate_per_100k": 6.5
-  },
-  {
-    "age": 29,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "CLAL",
-    "rate_per_100k": 6.14
-  },
-  {
-    "age": 29,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 6.0
-  },
-  {
-    "age": 29,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "MENORA",
-    "rate_per_100k": 6.04
-  },
-  {
-    "age": 29,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 8.5
-  },
-  {
-    "age": 29,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "FNX",
-    "rate_per_100k": 8.75
-  },
-  {
-    "age": 29,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "HAREL",
-    "rate_per_100k": 8.83
-  },
-  {
-    "age": 29,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "CLAL",
-    "rate_per_100k": 8.8
-  },
-  {
-    "age": 29,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 8.83
-  },
-  {
-    "age": 29,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "MENORA",
-    "rate_per_100k": 8.02
-  },
-  {
-    "age": 29,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 4.08
-  },
-  {
-    "age": 29,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "FNX",
-    "rate_per_100k": 5.83
-  },
-  {
-    "age": 29,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "HAREL",
-    "rate_per_100k": 5.58
-  },
-  {
-    "age": 29,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "CLAL",
-    "rate_per_100k": 5.38
-  },
-  {
-    "age": 29,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 3.1
-  },
-  {
-    "age": 29,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "MENORA",
-    "rate_per_100k": 4.73
-  },
-  {
-    "age": 29,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 5.25
-  },
-  {
-    "age": 29,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "FNX",
-    "rate_per_100k": 8.33
-  },
-  {
-    "age": 29,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "HAREL",
-    "rate_per_100k": 6.92
-  },
-  {
-    "age": 29,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "CLAL",
-    "rate_per_100k": 7.09
-  },
-  {
-    "age": 29,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 6.15
-  },
-  {
-    "age": 29,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "MENORA",
-    "rate_per_100k": 6.13
-  },
-  {
-    "age": 30,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 5.75
-  },
-  {
-    "age": 30,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "FNX",
-    "rate_per_100k": 6.08
-  },
-  {
-    "age": 30,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "HAREL",
-    "rate_per_100k": 6.58
-  },
-  {
-    "age": 30,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "CLAL",
-    "rate_per_100k": 6.14
-  },
-  {
-    "age": 30,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 6.0
-  },
-  {
-    "age": 30,
-    "gender": "male",
-    "smoker": "non_smoker",
-    "company": "MENORA",
-    "rate_per_100k": 6.13
-  },
-  {
-    "age": 30,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 8.08
-  },
-  {
-    "age": 30,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "FNX",
-    "rate_per_100k": 8.75
-  },
-  {
-    "age": 30,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "HAREL",
-    "rate_per_100k": 8.83
-  },
-  {
-    "age": 30,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "CLAL",
-    "rate_per_100k": 8.81
-  },
-  {
-    "age": 30,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 8.83
-  },
-  {
-    "age": 30,
-    "gender": "male",
-    "smoker": "smoker",
-    "company": "MENORA",
-    "rate_per_100k": 7.94
-  },
-  {
-    "age": 30,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 4.17
-  },
-  {
-    "age": 30,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "FNX",
-    "rate_per_100k": 5.83
-  },
-  {
-    "age": 30,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "HAREL",
-    "rate_per_100k": 5.58
-  },
-  {
-    "age": 30,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "CLAL",
-    "rate_per_100k": 5.38
-  },
-  {
-    "age": 30,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 3.1
-  },
-  {
-    "age": 30,
-    "gender": "female",
-    "smoker": "non_smoker",
-    "company": "MENORA",
-    "rate_per_100k": 4.94
-  },
-  {
-    "age": 30,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "HACHSHARA",
-    "rate_per_100k": 5.42
-  },
-  {
-    "age": 30,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "FNX",
-    "rate_per_100k": 8.33
-  },
-  {
-    "age": 30,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "HAREL",
-    "rate_per_100k": 6.92
-  },
-  {
-    "age": 30,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "CLAL",
-    "rate_per_100k": 7.12
-  },
-  {
-    "age": 30,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "MIGDAL",
-    "rate_per_100k": 6.15
-  },
-  {
-    "age": 30,
-    "gender": "female",
-    "smoker": "smoker",
-    "company": "MENORA",
-    "rate_per_100k": 6.34
+{
+  "unit_amount": 100000,
+  "currency": "ILS",
+  "rate_type": "per_100k_monthly",
+  "rates": [
+    {
+      "age": 20,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 6.0,
+        "הכשרה": 6.25,
+        "הפניקס": 6.08,
+        "הראל": 7.58,
+        "כלל": 6.08,
+        "מגדל": 6.0,
+        "מנורה": 6.73
+      }
+    },
+    {
+      "age": 20,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 8.75,
+        "הכשרה": 9.25,
+        "הפניקס": 8.75,
+        "הראל": 9.42,
+        "כלל": 8.68,
+        "מגדל": 8.83,
+        "מנורה": 8.68
+      }
+    },
+    {
+      "age": 20,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 3.1,
+        "הכשרה": 4.25,
+        "הפניקס": 5.83,
+        "הראל": 5.42,
+        "כלל": 5.26,
+        "מגדל": 3.1,
+        "מנורה": 4.53
+      }
+    },
+    {
+      "age": 20,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 4.67,
+        "הכשרה": 5.83,
+        "הפניקס": 8.33,
+        "הראל": 6.5,
+        "כלל": 6.9,
+        "מגדל": 6.15,
+        "מנורה": 5.73
+      }
+    },
+    {
+      "age": 21,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 6.0,
+        "הכשרה": 6.75,
+        "הפניקס": 6.08,
+        "הראל": 7.5,
+        "כלל": 6.08,
+        "מגדל": 6.0,
+        "מנורה": 6.45
+      }
+    },
+    {
+      "age": 21,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 8.75,
+        "הכשרה": 10.17,
+        "הפניקס": 8.75,
+        "הראל": 9.33,
+        "כלל": 8.68,
+        "מגדל": 8.83,
+        "מנורה": 8.51
+      }
+    },
+    {
+      "age": 21,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 3.1,
+        "הכשרה": 4.17,
+        "הפניקס": 5.83,
+        "הראל": 5.42,
+        "כלל": 5.26,
+        "מגדל": 3.1,
+        "מנורה": 4.53
+      }
+    },
+    {
+      "age": 21,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 4.67,
+        "הכשרה": 5.67,
+        "הפניקס": 8.33,
+        "הראל": 6.5,
+        "כלל": 6.9,
+        "מגדל": 6.15,
+        "מנורה": 5.73
+      }
+    },
+    {
+      "age": 22,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 6.0,
+        "הכשרה": 7.08,
+        "הפניקס": 6.08,
+        "הראל": 7.33,
+        "כלל": 6.08,
+        "מגדל": 6.0,
+        "מנורה": 6.51
+      }
+    },
+    {
+      "age": 22,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 8.75,
+        "הכשרה": 10.75,
+        "הפניקס": 8.75,
+        "הראל": 9.25,
+        "כלל": 8.68,
+        "מגדל": 8.83,
+        "מנורה": 8.52
+      }
+    },
+    {
+      "age": 22,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 3.1,
+        "הכשרה": 4.17,
+        "הפניקס": 5.83,
+        "הראל": 5.42,
+        "כלל": 5.26,
+        "מגדל": 3.1,
+        "מנורה": 4.53
+      }
+    },
+    {
+      "age": 22,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 4.67,
+        "הכשרה": 5.58,
+        "הפניקס": 8.33,
+        "הראל": 6.5,
+        "כלל": 6.9,
+        "מגדל": 6.15,
+        "מנורה": 5.73
+      }
+    },
+    {
+      "age": 23,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 6.0,
+        "הכשרה": 7.33,
+        "הפניקס": 6.08,
+        "הראל": 7.25,
+        "כלל": 6.08,
+        "מגדל": 6.0,
+        "מנורה": 6.34
+      }
+    },
+    {
+      "age": 23,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 8.75,
+        "הכשרה": 11.17,
+        "הפניקס": 8.75,
+        "הראל": 9.25,
+        "כלל": 8.68,
+        "מגדל": 8.83,
+        "מנורה": 8.36
+      }
+    },
+    {
+      "age": 23,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 3.1,
+        "הכשרה": 4.17,
+        "הפניקס": 5.83,
+        "הראל": 5.42,
+        "כלל": 5.26,
+        "מגדל": 3.1,
+        "מנורה": 4.53
+      }
+    },
+    {
+      "age": 23,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 4.68,
+        "הכשרה": 5.5,
+        "הפניקס": 8.33,
+        "הראל": 6.5,
+        "כלל": 6.9,
+        "מגדל": 6.15,
+        "מנורה": 5.73
+      }
+    },
+    {
+      "age": 24,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 6.0,
+        "הכשרה": 7.42,
+        "הפניקס": 6.08,
+        "הראל": 7.08,
+        "כלל": 6.08,
+        "מגדל": 6.0,
+        "מנורה": 6.18
+      }
+    },
+    {
+      "age": 24,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 8.75,
+        "הכשרה": 11.17,
+        "הפניקס": 8.75,
+        "הראל": 9.17,
+        "כלל": 8.68,
+        "מגדל": 8.83,
+        "מנורה": 8.3
+      }
+    },
+    {
+      "age": 24,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 3.1,
+        "הכשרה": 4.17,
+        "הפניקס": 5.83,
+        "הראל": 5.42,
+        "כלל": 5.26,
+        "מגדל": 3.1,
+        "מנורה": 4.53
+      }
+    },
+    {
+      "age": 24,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 4.72,
+        "הכשרה": 5.5,
+        "הפניקס": 8.33,
+        "הראל": 6.5,
+        "כלל": 6.97,
+        "מגדל": 6.15,
+        "מנורה": 5.73
+      }
+    },
+    {
+      "age": 25,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 6.0,
+        "הכשרה": 7.33,
+        "הפניקס": 6.08,
+        "הראל": 7.0,
+        "כלל": 6.14,
+        "מגדל": 6.0,
+        "מנורה": 6.07
+      }
+    },
+    {
+      "age": 25,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 8.75,
+        "הכשרה": 11.0,
+        "הפניקס": 8.75,
+        "הראל": 9.08,
+        "כלל": 8.74,
+        "מגדל": 8.83,
+        "מנורה": 8.25
+      }
+    },
+    {
+      "age": 25,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 3.1,
+        "הכשרה": 4.17,
+        "הפניקס": 5.83,
+        "הראל": 5.42,
+        "כלל": 5.32,
+        "מגדל": 3.1,
+        "מנורה": 4.53
+      }
+    },
+    {
+      "age": 25,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 4.77,
+        "הכשרה": 5.5,
+        "הפניקס": 8.33,
+        "הראל": 6.5,
+        "כלל": 6.97,
+        "מגדל": 6.15,
+        "מנורה": 5.73
+      }
+    },
+    {
+      "age": 26,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 6.0,
+        "הכשרה": 7.08,
+        "הפניקס": 6.08,
+        "הראל": 6.92,
+        "כלל": 6.14,
+        "מגדל": 6.0,
+        "מנורה": 5.85
+      }
+    },
+    {
+      "age": 26,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 8.75,
+        "הכשרה": 10.58,
+        "הפניקס": 8.75,
+        "הראל": 9.08,
+        "כלל": 8.8,
+        "מגדל": 8.83,
+        "מנורה": 8.18
+      }
+    },
+    {
+      "age": 26,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 3.1,
+        "הכשרה": 4.17,
+        "הפניקס": 5.83,
+        "הראל": 5.5,
+        "כלל": 5.32,
+        "מגדל": 3.1,
+        "מנורה": 4.58
+      }
+    },
+    {
+      "age": 26,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 4.83,
+        "הכשרה": 5.42,
+        "הפניקס": 8.33,
+        "הראל": 6.5,
+        "כלל": 6.97,
+        "מגדל": 6.15,
+        "מנורה": 5.73
+      }
+    },
+    {
+      "age": 27,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 6.0,
+        "הכשרה": 6.75,
+        "הפניקס": 6.08,
+        "הראל": 6.75,
+        "כלל": 6.14,
+        "מגדל": 6.0,
+        "מנורה": 5.8
+      }
+    },
+    {
+      "age": 27,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 8.75,
+        "הכשרה": 9.92,
+        "הפניקס": 8.75,
+        "הראל": 9.0,
+        "כלל": 8.8,
+        "מגדל": 8.83,
+        "מנורה": 8.1
+      }
+    },
+    {
+      "age": 27,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 3.0,
+        "הכשרה": 4.17,
+        "הפניקס": 5.83,
+        "הראל": 5.5,
+        "כלל": 5.38,
+        "מגדל": 3.1,
+        "מנורה": 4.58
+      }
+    },
+    {
+      "age": 27,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 4.92,
+        "הכשרה": 5.33,
+        "הפניקס": 8.33,
+        "הראל": 6.67,
+        "כלל": 7.03,
+        "מגדל": 6.15,
+        "מנורה": 5.85
+      }
+    },
+    {
+      "age": 28,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 6.0,
+        "הכשרה": 6.42,
+        "הפניקס": 6.08,
+        "הראל": 6.58,
+        "כלל": 6.14,
+        "מגדל": 6.0,
+        "מנורה": 5.92
+      }
+    },
+    {
+      "age": 28,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 8.75,
+        "הכשרה": 9.17,
+        "הפניקס": 8.75,
+        "הראל": 8.92,
+        "כלל": 8.8,
+        "מגדל": 8.83,
+        "מנורה": 8.08
+      }
+    },
+    {
+      "age": 28,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 3.1,
+        "הכשרה": 4.08,
+        "הפניקס": 5.83,
+        "הראל": 5.58,
+        "כלל": 5.38,
+        "מגדל": 3.1,
+        "מנורה": 4.63
+      }
+    },
+    {
+      "age": 28,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 5.04,
+        "הכשרה": 5.25,
+        "הפניקס": 8.33,
+        "הראל": 6.75,
+        "כלל": 7.03,
+        "מגדל": 6.15,
+        "מנורה": 5.85
+      }
+    },
+    {
+      "age": 29,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 6.0,
+        "הכשרה": 6.0,
+        "הפניקס": 6.08,
+        "הראל": 6.5,
+        "כלל": 6.14,
+        "מגדל": 6.0,
+        "מנורה": 6.04
+      }
+    },
+    {
+      "age": 29,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 8.75,
+        "הכשרה": 8.5,
+        "הפניקס": 8.75,
+        "הראל": 8.83,
+        "כלל": 8.8,
+        "מגדל": 8.83,
+        "מנורה": 8.02
+      }
+    },
+    {
+      "age": 29,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 3.1,
+        "הכשרה": 4.08,
+        "הפניקס": 5.83,
+        "הראל": 5.58,
+        "כלל": 5.38,
+        "מגדל": 3.1,
+        "מנורה": 4.73
+      }
+    },
+    {
+      "age": 29,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 5.18,
+        "הכשרה": 5.25,
+        "הפניקס": 8.33,
+        "הראל": 6.92,
+        "כלל": 7.09,
+        "מגדל": 6.15,
+        "מנורה": 6.13
+      }
+    },
+    {
+      "age": 30,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 6.0,
+        "הכשרה": 5.75,
+        "הפניקס": 6.08,
+        "הראל": 6.58,
+        "כלל": 6.14,
+        "מגדל": 6.0,
+        "מנורה": 6.13
+      }
+    },
+    {
+      "age": 30,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 8.75,
+        "הכשרה": 8.08,
+        "הפניקס": 8.75,
+        "הראל": 8.83,
+        "כלל": 8.81,
+        "מגדל": 8.83,
+        "מנורה": 7.94
+      }
+    },
+    {
+      "age": 30,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 3.1,
+        "הכשרה": 4.17,
+        "הפניקס": 5.83,
+        "הראל": 5.58,
+        "כלל": 5.38,
+        "מגדל": 3.1,
+        "מנורה": 4.94
+      }
+    },
+    {
+      "age": 30,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 5.36,
+        "הכשרה": 5.42,
+        "הפניקס": 8.33,
+        "הראל": 6.92,
+        "כלל": 7.12,
+        "מגדל": 6.15,
+        "מנורה": 6.34
+      }
+    },
+    {
+      "age": 31,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 6.0,
+        "הכשרה": 5.58,
+        "הפניקס": 6.08,
+        "הראל": 6.75,
+        "כלל": 6.14,
+        "מגדל": 6.0,
+        "מנורה": 6.28
+      }
+    },
+    {
+      "age": 31,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 8.75,
+        "הכשרה": 8.0,
+        "הפניקס": 8.75,
+        "הראל": 9.08,
+        "כלל": 8.81,
+        "מגדל": 9.12,
+        "מנורה": 8.13
+      }
+    },
+    {
+      "age": 31,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 3.1,
+        "הכשרה": 4.25,
+        "הפניקס": 5.83,
+        "הראל": 5.75,
+        "כלל": 5.38,
+        "מגדל": 3.1,
+        "מנורה": 5.18
+      }
+    },
+    {
+      "age": 31,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 5.57,
+        "הכשרה": 5.75,
+        "הפניקס": 8.33,
+        "הראל": 7.17,
+        "כלל": 7.25,
+        "מגדל": 6.15,
+        "מנורה": 6.56
+      }
+    },
+    {
+      "age": 32,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 6.0,
+        "הכשרה": 5.58,
+        "הפניקס": 6.08,
+        "הראל": 6.92,
+        "כלל": 6.25,
+        "מגדל": 6.0,
+        "מנורה": 6.34
+      }
+    },
+    {
+      "age": 32,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 9.08,
+        "הכשרה": 8.17,
+        "הפניקס": 9.08,
+        "הראל": 9.33,
+        "כלל": 9.06,
+        "מגדל": 9.4,
+        "מנורה": 8.29
+      }
+    },
+    {
+      "age": 32,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 3.1,
+        "הכשרה": 4.42,
+        "הפניקס": 5.83,
+        "הראל": 5.92,
+        "כלל": 5.5,
+        "מגדל": 3.1,
+        "מנורה": 5.39
+      }
+    },
+    {
+      "age": 32,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 5.84,
+        "הכשרה": 6.17,
+        "הפניקס": 8.33,
+        "הראל": 7.5,
+        "כלל": 7.44,
+        "מגדל": 6.15,
+        "מנורה": 6.88
+      }
+    },
+    {
+      "age": 33,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 6.0,
+        "הכשרה": 5.75,
+        "הפניקס": 6.08,
+        "הראל": 7.17,
+        "כלל": 6.44,
+        "מגדל": 6.0,
+        "מנורה": 6.57
+      }
+    },
+    {
+      "age": 33,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 9.33,
+        "הכשרה": 8.58,
+        "הפניקס": 9.33,
+        "הראל": 9.67,
+        "כלל": 9.38,
+        "מגדל": 9.69,
+        "מנורה": 8.57
+      }
+    },
+    {
+      "age": 33,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 3.42,
+        "הכשרה": 4.58,
+        "הפניקס": 5.83,
+        "הראל": 6.0,
+        "כלל": 5.56,
+        "מגדל": 3.42,
+        "מנורה": 5.64
+      }
+    },
+    {
+      "age": 33,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 6.15,
+        "הכשרה": 6.5,
+        "הפניקס": 8.33,
+        "הראל": 7.75,
+        "כלל": 7.69,
+        "מגדל": 6.15,
+        "מנורה": 7.16
+      }
+    },
+    {
+      "age": 34,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 6.0,
+        "הכשרה": 6.08,
+        "הפניקס": 6.08,
+        "הראל": 7.42,
+        "כלל": 6.62,
+        "מגדל": 6.0,
+        "מנורה": 6.85
+      }
+    },
+    {
+      "age": 34,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 9.67,
+        "הכשרה": 9.25,
+        "הפניקס": 9.67,
+        "הראל": 10.0,
+        "כלל": 9.75,
+        "מגדל": 9.98,
+        "מנורה": 9.0
+      }
+    },
+    {
+      "age": 34,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 3.83,
+        "הכשרה": 4.83,
+        "הפניקס": 5.83,
+        "הראל": 6.17,
+        "כלל": 5.81,
+        "מגדל": 3.83,
+        "מנורה": 5.91
+      }
+    },
+    {
+      "age": 34,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 6.52,
+        "הכשרה": 7.0,
+        "הפניקס": 8.33,
+        "הראל": 8.08,
+        "כלל": 8.0,
+        "מגדל": 6.76,
+        "מנורה": 7.54
+      }
+    },
+    {
+      "age": 35,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 6.0,
+        "הכשרה": 6.42,
+        "הפניקס": 6.08,
+        "הראל": 7.67,
+        "כלל": 6.88,
+        "מגדל": 6.0,
+        "מנורה": 7.09
+      }
+    },
+    {
+      "age": 35,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 10.0,
+        "הכשרה": 10.0,
+        "הפניקס": 10.0,
+        "הראל": 10.33,
+        "כלל": 10.25,
+        "מגדל": 10.26,
+        "מנורה": 9.43
+      }
+    },
+    {
+      "age": 35,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 4.23,
+        "הכשרה": 5.0,
+        "הפניקס": 5.83,
+        "הראל": 6.5,
+        "כלל": 6.0,
+        "מגדל": 4.23,
+        "מנורה": 6.14
+      }
+    },
+    {
+      "age": 35,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 6.96,
+        "הכשרה": 7.5,
+        "הפניקס": 8.33,
+        "הראל": 8.58,
+        "כלל": 8.31,
+        "מגדל": 7.37,
+        "מנורה": 8.08
+      }
+    },
+    {
+      "age": 36,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 6.0,
+        "הכשרה": 6.67,
+        "הפניקס": 7.0,
+        "הראל": 8.0,
+        "כלל": 7.22,
+        "מגדל": 6.0,
+        "מנורה": 7.61
+      }
+    },
+    {
+      "age": 36,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 10.33,
+        "הכשרה": 10.67,
+        "הפניקס": 11.08,
+        "הראל": 11.08,
+        "כלל": 10.79,
+        "מגדל": 11.05,
+        "מנורה": 10.08
+      }
+    },
+    {
+      "age": 36,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 4.58,
+        "הכשרה": 5.25,
+        "הפניקס": 6.67,
+        "הראל": 6.83,
+        "כלל": 6.23,
+        "מגדל": 4.58,
+        "מנורה": 6.42
+      }
+    },
+    {
+      "age": 36,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 7.47,
+        "הכשרה": 8.0,
+        "הפניקס": 9.05,
+        "הראל": 9.08,
+        "כלל": 8.7,
+        "מגדל": 7.87,
+        "מנורה": 8.57
+      }
+    },
+    {
+      "age": 37,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 6.0,
+        "הכשרה": 7.0,
+        "הפניקס": 7.25,
+        "הראל": 8.33,
+        "כלל": 7.58,
+        "מגדל": 6.0,
+        "מנורה": 7.98
+      }
+    },
+    {
+      "age": 37,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 10.92,
+        "הכשרה": 11.33,
+        "הפניקס": 11.9,
+        "הראל": 11.92,
+        "כלל": 11.66,
+        "מגדל": 11.83,
+        "מנורה": 10.84
+      }
+    },
+    {
+      "age": 37,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 4.78,
+        "הכשרה": 5.33,
+        "הפניקס": 6.67,
+        "הראל": 7.25,
+        "כלל": 6.54,
+        "מגדל": 4.78,
+        "מנורה": 6.69
+      }
+    },
+    {
+      "age": 37,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 8.06,
+        "הכשרה": 8.25,
+        "הפניקס": 9.58,
+        "הראל": 9.58,
+        "כלל": 9.44,
+        "מגדל": 8.14,
+        "מנורה": 9.07
+      }
+    },
+    {
+      "age": 38,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 6.0,
+        "הכשרה": 7.33,
+        "הפניקס": 7.67,
+        "הראל": 8.67,
+        "כלל": 8.08,
+        "מגדל": 6.0,
+        "מנורה": 8.32
+      }
+    },
+    {
+      "age": 38,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 11.58,
+        "הכשרה": 12.17,
+        "הפניקס": 12.78,
+        "הראל": 12.75,
+        "כלל": 12.52,
+        "מגדל": 12.61,
+        "מנורה": 11.64
+      }
+    },
+    {
+      "age": 38,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 5.08,
+        "הכשרה": 5.5,
+        "הפניקס": 6.67,
+        "הראל": 7.67,
+        "כלל": 6.84,
+        "מגדל": 5.08,
+        "מנורה": 7.19
+      }
+    },
+    {
+      "age": 38,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 8.33,
+        "הכשרה": 8.75,
+        "הפניקס": 9.58,
+        "הראל": 10.17,
+        "כלל": 10.05,
+        "מגדל": 8.55,
+        "מנורה": 9.68
+      }
+    },
+    {
+      "age": 39,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 6.64,
+        "הכשרה": 7.83,
+        "הפניקס": 8.08,
+        "הראל": 9.17,
+        "כלל": 8.76,
+        "מגדל": 6.64,
+        "מנורה": 8.56
+      }
+    },
+    {
+      "age": 39,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 12.42,
+        "הכשרה": 13.17,
+        "הפניקס": 13.77,
+        "הראל": 13.75,
+        "כלל": 13.69,
+        "מגדל": 13.4,
+        "מנורה": 12.85
+      }
+    },
+    {
+      "age": 39,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 5.49,
+        "הכשרה": 5.75,
+        "הפניקס": 6.67,
+        "הראל": 8.08,
+        "כלל": 7.28,
+        "מגדל": 5.49,
+        "מנורה": 7.47
+      }
+    },
+    {
+      "age": 39,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 8.33,
+        "הכשרה": 9.25,
+        "הפניקס": 9.58,
+        "הראל": 10.83,
+        "כלל": 10.85,
+        "מגדל": 9.14,
+        "מנורה": 10.34
+      }
+    },
+    {
+      "age": 40,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 6.91,
+        "הכשרה": 8.0,
+        "הפניקס": 8.58,
+        "הראל": 9.67,
+        "כלל": 9.37,
+        "מגדל": 6.91,
+        "מנורה": 9.05
+      }
+    },
+    {
+      "age": 40,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 13.25,
+        "הכשרה": 13.67,
+        "הפניקס": 14.88,
+        "הראל": 14.92,
+        "כלל": 14.98,
+        "מגדל": 14.18,
+        "מנורה": 14.1
+      }
+    },
+    {
+      "age": 40,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 5.57,
+        "הכשרה": 5.83,
+        "הפניקס": 6.67,
+        "הראל": 8.58,
+        "כלל": 7.71,
+        "מגדל": 5.57,
+        "מנורה": 7.98
+      }
+    },
+    {
+      "age": 40,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 8.75,
+        "הכשרה": 9.58,
+        "הפניקס": 10.08,
+        "הראל": 11.75,
+        "כלל": 11.84,
+        "מגדל": 9.21,
+        "מנורה": 11.06
+      }
+    },
+    {
+      "age": 41,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 7.58,
+        "הכשרה": 8.5,
+        "הפניקס": 9.17,
+        "הראל": 10.25,
+        "כלל": 10.24,
+        "מגדל": 7.58,
+        "מנורה": 9.69
+      }
+    },
+    {
+      "age": 41,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 14.25,
+        "הכשרה": 14.75,
+        "הפניקס": 16.39,
+        "הראל": 16.42,
+        "כלל": 16.4,
+        "מגדל": 15.46,
+        "מנורה": 15.5
+      }
+    },
+    {
+      "age": 41,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 6.08,
+        "הכשרה": 6.25,
+        "הפניקס": 7.0,
+        "הראל": 9.17,
+        "כלל": 8.26,
+        "מגדל": 6.22,
+        "מנורה": 8.62
+      }
+    },
+    {
+      "age": 41,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 9.75,
+        "הכשרה": 10.42,
+        "הפניקס": 11.17,
+        "הראל": 13.0,
+        "כלל": 12.95,
+        "מגדל": 10.15,
+        "מנורה": 12.5
+      }
+    },
+    {
+      "age": 42,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 8.34,
+        "הכשרה": 9.0,
+        "הפניקס": 9.75,
+        "הראל": 11.0,
+        "כלל": 11.22,
+        "מגדל": 8.34,
+        "מנורה": 10.41
+      }
+    },
+    {
+      "age": 42,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 15.33,
+        "הכשרה": 15.92,
+        "הפניקס": 17.67,
+        "הראל": 18.0,
+        "כלל": 18.25,
+        "מגדל": 16.89,
+        "מנורה": 16.9
+      }
+    },
+    {
+      "age": 42,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 6.5,
+        "הכשרה": 6.75,
+        "הפניקס": 7.5,
+        "הראל": 9.75,
+        "כלל": 8.88,
+        "מגדל": 7.21,
+        "מנורה": 9.2
+      }
+    },
+    {
+      "age": 42,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 10.75,
+        "הכשרה": 11.58,
+        "הפניקס": 12.33,
+        "הראל": 14.42,
+        "כלל": 14.24,
+        "מגדל": 11.62,
+        "מנורה": 13.86
+      }
+    },
+    {
+      "age": 43,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 9.08,
+        "הכשרה": 9.67,
+        "הפניקס": 10.42,
+        "הראל": 11.92,
+        "כלל": 12.21,
+        "מגדל": 9.24,
+        "מנורה": 10.05
+      }
+    },
+    {
+      "age": 43,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 16.67,
+        "הכשרה": 17.33,
+        "הפניקס": 19.17,
+        "הראל": 19.92,
+        "כלל": 20.16,
+        "מגדל": 18.61,
+        "מנורה": 18.87
+      }
+    },
+    {
+      "age": 43,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 7.0,
+        "הכשרה": 7.33,
+        "הפניקס": 8.0,
+        "הראל": 10.42,
+        "כלל": 9.68,
+        "מגדל": 8.3,
+        "מנורה": 9.98
+      }
+    },
+    {
+      "age": 43,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 11.92,
+        "הכשרה": 12.83,
+        "הפניקס": 13.67,
+        "הראל": 16.0,
+        "כלל": 15.54,
+        "מגדל": 13.21,
+        "מנורה": 15.31
+      }
+    },
+    {
+      "age": 44,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 9.75,
+        "הכשרה": 10.17,
+        "הפניקס": 11.17,
+        "הראל": 12.92,
+        "כלל": 13.44,
+        "מגדל": 10.08,
+        "מנורה": 12.12
+      }
+    },
+    {
+      "age": 44,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 18.17,
+        "הכשרה": 18.67,
+        "הפניקס": 20.83,
+        "הראל": 21.92,
+        "כלל": 22.51,
+        "מגדל": 20.19,
+        "מנורה": 20.98
+      }
+    },
+    {
+      "age": 44,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 7.5,
+        "הכשרה": 8.0,
+        "הפניקס": 8.67,
+        "הראל": 11.08,
+        "כלל": 10.48,
+        "מגדל": 9.53,
+        "מנורה": 10.64
+      }
+    },
+    {
+      "age": 44,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 13.17,
+        "הכשרה": 14.33,
+        "הפניקס": 15.17,
+        "הראל": 17.83,
+        "כלל": 17.14,
+        "מגדל": 15.0,
+        "מנורה": 17.16
+      }
+    },
+    {
+      "age": 45,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 10.58,
+        "הכשרה": 10.92,
+        "הפניקס": 12.17,
+        "הראל": 14.08,
+        "כלל": 14.86,
+        "מגדל": 11.12,
+        "מנורה": 13.04
+      }
+    },
+    {
+      "age": 45,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 20.0,
+        "הכשרה": 20.25,
+        "הפניקס": 23.0,
+        "הראל": 24.25,
+        "כלל": 25.16,
+        "מגדל": 22.13,
+        "מנורה": 22.85
+      }
+    },
+    {
+      "age": 45,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 8.17,
+        "הכשרה": 8.83,
+        "הפניקס": 9.42,
+        "הראל": 11.92,
+        "כלל": 11.04,
+        "מגדל": 11.08,
+        "מנורה": 11.28
+      }
+    },
+    {
+      "age": 45,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 14.83,
+        "הכשרה": 16.25,
+        "הפניקס": 17.08,
+        "הראל": 19.83,
+        "כלל": 18.93,
+        "מגדל": 17.25,
+        "מנורה": 18.66
+      }
+    },
+    {
+      "age": 46,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 11.5,
+        "הכשרה": 11.75,
+        "הפניקס": 13.25,
+        "הראל": 15.5,
+        "כלל": 16.02,
+        "מגדל": 12.32,
+        "מנורה": 14.35
+      }
+    },
+    {
+      "age": 46,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 22.08,
+        "הכשרה": 22.08,
+        "הפניקס": 25.42,
+        "הראל": 27.0,
+        "כלל": 27.24,
+        "מגדל": 24.38,
+        "מנורה": 25.36
+      }
+    },
+    {
+      "age": 46,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 8.92,
+        "הכשרה": 9.67,
+        "הפניקס": 10.25,
+        "הראל": 12.75,
+        "כלל": 11.7,
+        "מגדל": 12.77,
+        "מנורה": 11.96
+      }
+    },
+    {
+      "age": 46,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 16.67,
+        "הכשרה": 18.25,
+        "הפניקס": 19.17,
+        "הראל": 22.17,
+        "כלל": 20.1,
+        "מגדל": 19.68,
+        "מנורה": 20.93
+      }
+    },
+    {
+      "age": 47,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 12.58,
+        "הכשרה": 12.58,
+        "הפניקס": 14.42,
+        "הראל": 17.0,
+        "כלל": 17.82,
+        "מגדל": 13.66,
+        "מנורה": 15.72
+      }
+    },
+    {
+      "age": 47,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 24.5,
+        "הכשרה": 24.17,
+        "הפניקס": 28.17,
+        "הראל": 30.33,
+        "כלל": 30.36,
+        "מגדל": 26.88,
+        "מנורה": 28.08
+      }
+    },
+    {
+      "age": 47,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 9.75,
+        "הכשרה": 10.67,
+        "הפניקס": 11.17,
+        "הראל": 13.75,
+        "כלל": 12.78,
+        "מגדל": 14.55,
+        "מנורה": 12.81
+      }
+    },
+    {
+      "age": 47,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 18.67,
+        "הכשרה": 20.42,
+        "הפניקס": 21.5,
+        "הראל": 24.75,
+        "כלל": 22.2,
+        "מגדל": 22.24,
+        "מנורה": 23.32
+      }
+    },
+    {
+      "age": 48,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 13.75,
+        "הכשרה": 13.58,
+        "הפניקס": 15.83,
+        "הראל": 18.67,
+        "כלל": 19.8,
+        "מגדל": 15.18,
+        "מנורה": 17.29
+      }
+    },
+    {
+      "age": 48,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 27.33,
+        "הכשרה": 26.42,
+        "הפניקס": 31.42,
+        "הראל": 34.33,
+        "כלל": 34.14,
+        "מגדל": 29.68,
+        "מנורה": 32.03
+      }
+    },
+    {
+      "age": 48,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 10.67,
+        "הכשרה": 11.67,
+        "הפניקס": 12.25,
+        "הראל": 14.75,
+        "כלל": 13.86,
+        "מגדל": 16.41,
+        "מנורה": 13.83
+      }
+    },
+    {
+      "age": 48,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 21.08,
+        "הכשרה": 22.75,
+        "הפניקס": 24.25,
+        "הראל": 27.58,
+        "כלל": 24.6,
+        "מגדל": 24.85,
+        "מנורה": 26.22
+      }
+    },
+    {
+      "age": 49,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 15.17,
+        "הכשרה": 15.0,
+        "הפניקס": 17.42,
+        "הראל": 20.58,
+        "כלל": 22.14,
+        "מגדל": 17.28,
+        "מנורה": 19.27
+      }
+    },
+    {
+      "age": 49,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 30.49,
+        "הכשרה": 29.5,
+        "הפניקס": 35.08,
+        "הראל": 38.83,
+        "כלל": 38.1,
+        "מגדל": 33.59,
+        "מנורה": 35.44
+      }
+    },
+    {
+      "age": 49,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 11.67,
+        "הכשרה": 12.67,
+        "הפניקס": 13.42,
+        "הראל": 15.92,
+        "כלל": 15.3,
+        "מגדל": 18.17,
+        "מנורה": 14.85
+      }
+    },
+    {
+      "age": 49,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 23.75,
+        "הכשרה": 25.08,
+        "הפניקס": 27.33,
+        "הראל": 30.92,
+        "כלל": 27.6,
+        "מגדל": 27.32,
+        "מנורה": 29.14
+      }
+    },
+    {
+      "age": 50,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 16.75,
+        "הכשרה": 17.58,
+        "הפניקס": 19.25,
+        "הראל": 22.67,
+        "כלל": 24.48,
+        "מגדל": 19.51,
+        "מנורה": 21.74
+      }
+    },
+    {
+      "age": 50,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 34.04,
+        "הכשרה": 33.75,
+        "הפניקס": 39.25,
+        "הראל": 43.83,
+        "כלל": 42.66,
+        "מגדל": 37.71,
+        "מנורה": 40.94
+      }
+    },
+    {
+      "age": 50,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 12.83,
+        "הכשרה": 14.33,
+        "הפניקס": 14.75,
+        "הראל": 17.25,
+        "כלל": 16.74,
+        "מגדל": 19.01,
+        "מנורה": 16.37
+      }
+    },
+    {
+      "age": 50,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 28.88,
+        "הכשרה": 27.17,
+        "הפניקס": 30.83,
+        "הראל": 34.58,
+        "כלל": 30.72,
+        "מגדל": 28.38,
+        "מנורה": 32.79
+      }
+    },
+    {
+      "age": 51,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 18.5,
+        "הכשרה": 19.17,
+        "הפניקס": 21.25,
+        "הראל": 25.08,
+        "כלל": 27.18,
+        "מגדל": 21.92,
+        "מנורה": 23.99
+      }
+    },
+    {
+      "age": 51,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 38.08,
+        "הכשרה": 37.0,
+        "הפניקס": 44.0,
+        "הראל": 49.5,
+        "כלל": 47.58,
+        "מגדל": 42.12,
+        "מנורה": 46.63
+      }
+    },
+    {
+      "age": 51,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 14.17,
+        "הכשרה": 14.83,
+        "הפניקס": 16.25,
+        "הראל": 18.67,
+        "כלל": 18.36,
+        "מגדל": 19.75,
+        "מנורה": 17.63
+      }
+    },
+    {
+      "age": 51,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 30.24,
+        "הכשרה": 28.0,
+        "הפניקס": 34.75,
+        "הראל": 38.75,
+        "כלל": 33.96,
+        "מגדל": 29.27,
+        "מנורה": 36.91
+      }
+    },
+    {
+      "age": 52,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 20.5,
+        "הכשרה": 20.75,
+        "הפניקס": 23.58,
+        "הראל": 27.75,
+        "כלל": 28.98,
+        "מגדל": 24.33,
+        "מנורה": 26.77
+      }
+    },
+    {
+      "age": 52,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 42.68,
+        "הכשרה": 40.25,
+        "הפניקס": 49.42,
+        "הראל": 55.83,
+        "כלל": 51.27,
+        "מגדל": 46.46,
+        "מנורה": 51.91
+      }
+    },
+    {
+      "age": 52,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 15.58,
+        "הכשרה": 15.5,
+        "הפניקס": 17.92,
+        "הראל": 20.25,
+        "כלל": 19.37,
+        "מגדל": 20.78,
+        "מנורה": 19.1
+      }
+    },
+    {
+      "age": 52,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 34.04,
+        "הכשרה": 29.17,
+        "הפניקס": 39.25,
+        "הראל": 43.5,
+        "כלל": 36.57,
+        "מגדל": 30.59,
+        "מנורה": 41.05
+      }
+    },
+    {
+      "age": 53,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 22.75,
+        "הכשרה": 22.42,
+        "הפניקס": 26.17,
+        "הראל": 30.67,
+        "כלל": 28.98,
+        "מגדל": 26.92,
+        "מנורה": 29.65
+      }
+    },
+    {
+      "age": 53,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 47.91,
+        "הכשרה": 43.83,
+        "הפניקס": 55.58,
+        "הראל": 63.0,
+        "כלל": 51.27,
+        "מגדל": 51.11,
+        "מנורה": 59.06
+      }
+    },
+    {
+      "age": 53,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 17.25,
+        "הכשרה": 16.58,
+        "הפניקס": 19.83,
+        "הראל": 21.92,
+        "כלל": 19.37,
+        "מגדל": 22.6,
+        "מנורה": 20.7
+      }
+    },
+    {
+      "age": 53,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 37.99,
+        "הכשרה": 31.17,
+        "הפניקס": 44.25,
+        "הראל": 48.75,
+        "כלל": 36.57,
+        "מגדל": 33.03,
+        "מנורה": 46.08
+      }
+    },
+    {
+      "age": 54,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 25.42,
+        "הכשרה": 24.25,
+        "הפניקס": 29.17,
+        "הראל": 33.92,
+        "כלל": 32.08,
+        "מגדל": 29.63,
+        "מנורה": 32.8
+      }
+    },
+    {
+      "age": 54,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 53.84,
+        "הכשרה": 47.5,
+        "הפניקס": 62.58,
+        "הראל": 70.92,
+        "כלל": 56.6,
+        "מגדל": 55.91,
+        "מנורה": 67.06
+      }
+    },
+    {
+      "age": 54,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 19.17,
+        "הכשרה": 18.0,
+        "הפניקס": 22.0,
+        "הראל": 23.83,
+        "כלל": 21.18,
+        "מגדל": 25.18,
+        "מנורה": 22.5
+      }
+    },
+    {
+      "age": 54,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 42.01,
+        "הכשרה": 33.83,
+        "הפניקס": 49.92,
+        "הראל": 54.17,
+        "כלל": 40.66,
+        "מגדל": 36.53,
+        "מנורה": 51.78
+      }
+    },
+    {
+      "age": 55,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 28.25,
+        "הכשרה": 26.67,
+        "הפניקס": 32.5,
+        "הראל": 37.67,
+        "כלל": 35.1,
+        "מגדל": 32.94,
+        "מנורה": 35.56
+      }
+    },
+    {
+      "age": 55,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 60.57,
+        "הכשרה": 52.0,
+        "הפניקס": 70.5,
+        "הראל": 79.75,
+        "כלל": 62.37,
+        "מגדל": 61.79,
+        "מנורה": 74.15
+      }
+    },
+    {
+      "age": 55,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 21.17,
+        "הכשרה": 20.0,
+        "הפניקס": 24.33,
+        "הראל": 26.0,
+        "כלל": 23.3,
+        "מגדל": 28.36,
+        "מנורה": 24.23
+      }
+    },
+    {
+      "age": 55,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 46.96,
+        "הכשרה": 37.25,
+        "הפניקס": 56.33,
+        "הראל": 59.75,
+        "כלל": 44.67,
+        "מגדל": 40.83,
+        "מנורה": 58.1
+      }
+    },
+    {
+      "age": 56,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 31.58,
+        "הכשרה": 29.42,
+        "הפניקס": 36.33,
+        "הראל": 41.58,
+        "כלל": 38.92,
+        "מגדל": 36.46,
+        "מנורה": 39.36
+      }
+    },
+    {
+      "age": 56,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 68.0,
+        "הכשרה": 56.92,
+        "הפניקס": 79.5,
+        "הראל": 89.58,
+        "כלל": 69.64,
+        "מגדל": 68.0,
+        "מנורה": 84.65
+      }
+    },
+    {
+      "age": 56,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 23.58,
+        "הכשרה": 22.33,
+        "הפניקס": 27.08,
+        "הראל": 28.42,
+        "כלל": 25.79,
+        "מגדל": 31.87,
+        "מנורה": 26.78
+      }
+    },
+    {
+      "age": 56,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 52.4,
+        "הכשרה": 41.0,
+        "הפניקס": 63.5,
+        "הראל": 66.08,
+        "כלל": 49.35,
+        "מגדל": 45.56,
+        "מנורה": 63.81
+      }
+    },
+    {
+      "age": 57,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 35.33,
+        "הכשרה": 32.58,
+        "הפניקס": 40.58,
+        "הראל": 46.0,
+        "כלל": 43.19,
+        "מגדל": 40.58,
+        "מנורה": 43.58
+      }
+    },
+    {
+      "age": 57,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 75.24,
+        "הכשרה": 62.58,
+        "הפניקס": 89.58,
+        "הראל": 100.58,
+        "כלל": 77.99,
+        "מגדל": 75.24,
+        "מנורה": 94.13
+      }
+    },
+    {
+      "age": 57,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 26.17,
+        "הכשרה": 24.33,
+        "הפניקס": 30.08,
+        "הראל": 31.0,
+        "כלל": 28.54,
+        "מגדל": 34.81,
+        "מנורה": 29.3
+      }
+    },
+    {
+      "age": 57,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 56.84,
+        "הכשרה": 44.17,
+        "הפניקס": 71.58,
+        "הראל": 73.0,
+        "כלל": 54.74,
+        "מגדל": 49.43,
+        "מנורה": 70.98
+      }
+    },
+    {
+      "age": 58,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 39.58,
+        "הכשרה": 36.25,
+        "הפניקס": 45.5,
+        "הראל": 51.0,
+        "כלל": 47.97,
+        "מגדל": 45.44,
+        "מנורה": 48.92
+      }
+    },
+    {
+      "age": 58,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 83.75,
+        "הכשרה": 69.25,
+        "הפניקס": 101.0,
+        "הראל": 112.67,
+        "כלל": 86.84,
+        "מגדל": 83.75,
+        "מנורה": 105.93
+      }
+    },
+    {
+      "age": 58,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 29.17,
+        "הכשרה": 26.33,
+        "הפניקס": 33.5,
+        "הראל": 33.92,
+        "כלל": 31.49,
+        "מגדל": 37.61,
+        "מנורה": 32.04
+      }
+    },
+    {
+      "age": 58,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 61.01,
+        "הכשרה": 47.17,
+        "הפניקס": 80.58,
+        "הראל": 80.67,
+        "כלל": 61.0,
+        "מגדל": 53.05,
+        "מנורה": 78.13
+      }
+    },
+    {
+      "age": 59,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 44.42,
+        "הכשרה": 41.25,
+        "הפניקס": 51.08,
+        "הראל": 56.33,
+        "כלל": 53.37,
+        "מגדל": 52.2,
+        "מנורה": 54.15
+      }
+    },
+    {
+      "age": 59,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 95.63,
+        "הכשרה": 78.33,
+        "הפניקס": 113.83,
+        "הראל": 126.17,
+        "כלל": 96.3,
+        "מגדל": 95.63,
+        "מנורה": 118.4
+      }
+    },
+    {
+      "age": 59,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 32.5,
+        "הכשרה": 29.17,
+        "הפניקס": 37.23,
+        "הראל": 37.25,
+        "כלל": 34.49,
+        "מגדל": 41.64,
+        "מנורה": 35.46
+      }
+    },
+    {
+      "age": 59,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 67.08,
+        "הכשרה": 51.42,
+        "הפניקס": 85.23,
+        "הראל": 89.33,
+        "כלל": 67.56,
+        "מגדל": 58.33,
+        "מנורה": 86.92
+      }
+    },
+    {
+      "age": 60,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 49.92,
+        "הכשרה": 46.67,
+        "הפניקס": 57.33,
+        "הראל": 62.42,
+        "כלל": 59.16,
+        "מגדל": 59.43,
+        "מנורה": 59.93
+      }
+    },
+    {
+      "age": 60,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 108.24,
+        "הכשרה": 88.08,
+        "הפניקס": 128.17,
+        "הראל": 141.0,
+        "כלל": 106.73,
+        "מגדל": 108.24,
+        "מנורה": 132.17
+      }
+    },
+    {
+      "age": 60,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 36.11,
+        "הכשרה": 32.75,
+        "הפניקס": 40.86,
+        "הראל": 40.83,
+        "כלל": 38.15,
+        "מגדל": 47.05,
+        "מנורה": 38.44
+      }
+    },
+    {
+      "age": 60,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 76.59,
+        "הכשרה": 57.08,
+        "הפניקס": 95.85,
+        "הראל": 98.83,
+        "כלל": 75.14,
+        "מגדל": 65.46,
+        "מנורה": 96.76
+      }
+    },
+    {
+      "age": 61,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 56.08,
+        "הכשרה": 53.17,
+        "הפניקס": 64.5,
+        "הראל": 69.33,
+        "כלל": 62.51,
+        "מגדל": 68.11,
+        "מנורה": 67.19
+      }
+    },
+    {
+      "age": 61,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 123.01,
+        "הכשרה": 99.58,
+        "הפניקס": 144.25,
+        "הראל": 152.33,
+        "כלל": 113.79,
+        "מגדל": 123.3,
+        "מנורה": 143.23
+      }
+    },
+    {
+      "age": 61,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 40.2,
+        "הכשרה": 37.58,
+        "הפניקס": 43.81,
+        "הראל": 43.83,
+        "כלל": 40.68,
+        "מגדל": 54.31,
+        "מנורה": 42.62
+      }
+    },
+    {
+      "age": 61,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 87.81,
+        "הכשרה": 64.58,
+        "הפניקס": 107.73,
+        "הראל": 109.17,
+        "כלל": 80.19,
+        "מגדל": 75.05,
+        "מנורה": 106.67
+      }
+    },
+    {
+      "age": 62,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 63.08,
+        "הכשרה": 60.5,
+        "הפניקס": 72.5,
+        "הראל": 77.08,
+        "כלל": 69.69,
+        "מגדל": 77.87,
+        "מנורה": 74.28
+      }
+    },
+    {
+      "age": 62,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 138.23,
+        "הכשרה": 112.5,
+        "הפניקס": 162.17,
+        "הראל": 164.58,
+        "כלל": 126.29,
+        "מגדל": 140.15,
+        "מנורה": 155.07
+      }
+    },
+    {
+      "age": 62,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 44.8,
+        "הכשרה": 43.42,
+        "הפניקס": 48.07,
+        "הראל": 48.08,
+        "כלל": 44.83,
+        "מגדל": 63.09,
+        "מנורה": 47.03
+      }
+    },
+    {
+      "age": 62,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 101.31,
+        "הכשרה": 73.58,
+        "הפניקס": 120.45,
+        "הראל": 120.42,
+        "כלל": 88.54,
+        "מגדל": 86.59,
+        "מנורה": 117.54
+      }
+    },
+    {
+      "age": 63,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 71.08,
+        "הכשרה": 68.08,
+        "הפניקס": 81.67,
+        "הראל": 85.67,
+        "כלל": 77.11,
+        "מגדל": 87.67,
+        "מנורה": 82.16
+      }
+    },
+    {
+      "age": 63,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 155.2,
+        "הכשרה": 125.42,
+        "הפניקס": 177.67,
+        "הראל": 177.67,
+        "כלל": 139.97,
+        "מגדל": 156.84,
+        "מנורה": 165.39
+      }
+    },
+    {
+      "age": 63,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 49.97,
+        "הכשרה": 49.92,
+        "הפניקס": 52.68,
+        "הראל": 52.67,
+        "כלל": 49.47,
+        "מגדל": 72.63,
+        "מנורה": 51.7
+      }
+    },
+    {
+      "age": 63,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 115.87,
+        "הכשרה": 83.33,
+        "הפניקס": 132.98,
+        "הראל": 133.0,
+        "כלל": 98.16,
+        "מגדל": 99.03,
+        "מנורה": 130.95
+      }
+    },
+    {
+      "age": 64,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 80.0,
+        "הכשרה": 75.83,
+        "הפניקס": 92.0,
+        "הראל": 95.25,
+        "כלל": 85.27,
+        "מגדל": 97.68,
+        "מנורה": 90.65
+      }
+    },
+    {
+      "age": 64,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 173.7,
+        "הכשרה": 138.5,
+        "הפניקס": 204.5,
+        "הראל": 215.17,
+        "כלל": 154.96,
+        "מגדל": 173.7,
+        "מנורה": 199.05
+      }
+    },
+    {
+      "age": 64,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 55.77,
+        "הכשרה": 56.42,
+        "הפניקס": 57.81,
+        "הראל": 57.83,
+        "כלל": 54.31,
+        "מגדל": 81.79,
+        "מנורה": 56.76
+      }
+    },
+    {
+      "age": 64,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 129.65,
+        "הכשרה": 92.75,
+        "הפניקס": 146.85,
+        "הראל": 146.83,
+        "כלל": 108.81,
+        "מגדל": 110.81,
+        "מנורה": 144.5
+      }
+    },
+    {
+      "age": 65,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 90.25,
+        "הכשרה": 84.67,
+        "הפניקס": 103.75,
+        "הראל": 105.92,
+        "כלל": 93.52,
+        "מגדל": 109.11,
+        "מנורה": 103.09
+      }
+    },
+    {
+      "age": 65,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 192.87,
+        "הכשרה": 153.33,
+        "הפניקס": 229.25,
+        "הראל": 250.5,
+        "כלל": 171.96,
+        "מגדל": 192.87,
+        "מנורה": 231.85
+      }
+    },
+    {
+      "age": 65,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 62.29,
+        "הכשרה": 62.83,
+        "הפניקס": 63.41,
+        "הראל": 63.42,
+        "כלל": 60.17,
+        "מגדל": 90.59,
+        "מנורה": 62.49
+      }
+    },
+    {
+      "age": 65,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 142.68,
+        "הכשרה": 101.75,
+        "הפניקס": 162.22,
+        "הראל": 162.25,
+        "כלל": 120.43,
+        "מגדל": 121.95,
+        "מנורה": 161.19
+      }
+    },
+    {
+      "age": 66,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 101.83,
+        "הכשרה": 95.25,
+        "הפניקס": 117.08,
+        "הראל": 119.83,
+        "כלל": 103.98,
+        "מגדל": 122.98,
+        "מנורה": 117.39
+      }
+    },
+    {
+      "age": 66,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 216.08,
+        "הכשרה": 170.83,
+        "הפניקס": 256.67,
+        "הראל": 281.25,
+        "כלל": 189.88,
+        "מגדל": 216.08,
+        "מנורה": 272.36
+      }
+    },
+    {
+      "age": 66,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 69.61,
+        "הכשרה": 69.25,
+        "הפניקס": 71.63,
+        "הראל": 71.67,
+        "כלל": 66.42,
+        "מגדל": 98.81,
+        "מנורה": 70.02
+      }
+    },
+    {
+      "age": 66,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 154.65,
+        "הכשרה": 110.17,
+        "הפניקס": 181.35,
+        "הראל": 181.33,
+        "כלל": 133.08,
+        "מגדל": 132.18,
+        "מנורה": 178.52
+      }
+    },
+    {
+      "age": 67,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 114.92,
+        "הכשרה": 107.67,
+        "הפניקס": 132.08,
+        "הראל": 136.25,
+        "כלל": 115.35,
+        "מגדל": 139.5,
+        "מנורה": 133.53
+      }
+    },
+    {
+      "age": 67,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 243.64,
+        "הכשרה": 191.42,
+        "הפניקס": 287.0,
+        "הראל": 314.42,
+        "כלל": 210.49,
+        "מגדל": 243.64,
+        "מנורה": 309.08
+      }
+    },
+    {
+      "age": 67,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 77.84,
+        "הכשרה": 76.33,
+        "הפניקס": 80.62,
+        "הראל": 80.58,
+        "כלל": 73.65,
+        "מגדל": 107.78,
+        "מנורה": 79.63
+      }
+    },
+    {
+      "age": 67,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 167.64,
+        "הכשרה": 119.33,
+        "הפניקס": 202.58,
+        "הראל": 202.58,
+        "כלל": 147.83,
+        "מגדל": 143.28,
+        "מנורה": 199.83
+      }
+    },
+    {
+      "age": 68,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 129.67,
+        "הכשרה": 120.08,
+        "הפניקס": 149.08,
+        "הראל": 154.0,
+        "כלל": 127.03,
+        "מגדל": 155.86,
+        "מנורה": 151.75
+      }
+    },
+    {
+      "age": 68,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 270.58,
+        "הכשרה": 211.42,
+        "הפניקס": 320.5,
+        "הראל": 351.67,
+        "כלל": 233.44,
+        "מגדל": 270.58,
+        "מנורה": 346.11
+      }
+    },
+    {
+      "age": 68,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 87.07,
+        "הכשרה": 85.33,
+        "הפניקס": 90.94,
+        "הראל": 90.92,
+        "כלל": 81.31,
+        "מגדל": 119.32,
+        "מנורה": 89.53
+      }
+    },
+    {
+      "age": 68,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 184.42,
+        "הכשרה": 131.08,
+        "הפניקס": 226.42,
+        "הראל": 226.42,
+        "כלל": 162.87,
+        "מגדל": 157.62,
+        "מנורה": 223.56
+      }
+    },
+    {
+      "age": 69,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 146.5,
+        "הכשרה": 131.92,
+        "הפניקס": 168.42,
+        "הראל": 175.67,
+        "כלל": 140.6,
+        "מגדל": 171.23,
+        "מנורה": 163.36
+      }
+    },
+    {
+      "age": 69,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 295.48,
+        "הכשרה": 229.75,
+        "הפניקס": 357.42,
+        "הראל": 394.42,
+        "כלל": 257.52,
+        "מגדל": 295.48,
+        "מנורה": 387.46
+      }
+    },
+    {
+      "age": 69,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 97.45,
+        "הכשרה": 95.42,
+        "הפניקס": 102.72,
+        "הראל": 102.75,
+        "כלל": 89.37,
+        "מגדל": 132.14,
+        "מנורה": 100.96
+      }
+    },
+    {
+      "age": 69,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 202.96,
+        "הכשרה": 144.17,
+        "הפניקס": 254.02,
+        "הראל": 254.0,
+        "כלל": 180.5,
+        "מגדל": 173.47,
+        "מנורה": 255.06
+      }
+    },
+    {
+      "age": 70,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 165.42,
+        "הכשרה": 143.5,
+        "הפניקס": 190.17,
+        "הראל": 201.83,
+        "כלל": 156.33,
+        "מגדל": 186.3,
+        "מנורה": 185.63
+      }
+    },
+    {
+      "age": 70,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 319.56,
+        "הכשרה": 245.58,
+        "הפניקס": 398.0,
+        "הראל": 442.17,
+        "כלל": 283.65,
+        "מגדל": 319.56,
+        "מנורה": 431.86
+      }
+    },
+    {
+      "age": 70,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 109.1,
+        "הכשרה": 108.42,
+        "הפניקס": 118.86,
+        "הראל": 118.83,
+        "כלל": 98.7,
+        "מגדל": 149.07,
+        "מנורה": 114.15
+      }
+    },
+    {
+      "age": 70,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 227.54,
+        "הכשרה": 161.08,
+        "הפניקס": 285.08,
+        "הראל": 285.08,
+        "כלל": 198.33,
+        "מגדל": 194.47,
+        "מנורה": 281.35
+      }
+    },
+    {
+      "age": 71,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 186.92,
+        "הכשרה": 159.5,
+        "הפניקס": 186.92,
+        "הראל": 229.25,
+        "כלל": 171.08,
+        "מגדל": 210.76,
+        "מנורה": 210.85
+      }
+    },
+    {
+      "age": 71,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 362.35,
+        "הכשרה": 273.25,
+        "הפניקס": 385.0,
+        "הראל": 494.92,
+        "כלל": 315.34,
+        "מגדל": 362.35,
+        "מנורה": 483.69
+      }
+    },
+    {
+      "age": 71,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 122.18,
+        "הכשרה": 122.25,
+        "הפניקס": 124.5,
+        "הראל": 138.25,
+        "כלל": 108.96,
+        "מגדל": 168.42,
+        "מנורה": 129.03
+      }
+    },
+    {
+      "age": 71,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 257.62,
+        "הכשרה": 181.83,
+        "הפניקס": 303.17,
+        "הראל": 319.5,
+        "כלל": 219.23,
+        "מגדל": 220.19,
+        "מנורה": 305.91
+      }
+    },
+    {
+      "age": 72,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 211.08,
+        "הכשרה": 181.17,
+        "הפניקס": 211.08,
+        "הראל": 260.42,
+        "כלל": 189.15,
+        "מגדל": 239.95,
+        "מנורה": 236.97
+      }
+    },
+    {
+      "age": 72,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 413.51,
+        "הכשרה": 311.0,
+        "הפניקס": 427.33,
+        "הראל": 554.08,
+        "כלל": 347.48,
+        "מגדל": 413.51,
+        "מנורה": 527.96
+      }
+    },
+    {
+      "age": 72,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 136.86,
+        "הכשרה": 138.5,
+        "הפניקס": 139.58,
+        "הראל": 160.92,
+        "כלל": 119.07,
+        "מגדל": 191.28,
+        "מנורה": 148.98
+      }
+    },
+    {
+      "age": 72,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 293.2,
+        "הכשרה": 206.33,
+        "הפניקס": 336.75,
+        "הראל": 358.5,
+        "כלל": 243.46,
+        "מגדל": 250.6,
+        "מנורה": 331.31
+      }
+    },
+    {
+      "age": 73,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 238.5,
+        "הכשרה": 205.25,
+        "הפניקס": 238.5,
+        "הראל": 295.75,
+        "כלל": 209.02,
+        "מגדל": 275.9,
+        "מנורה": 266.61
+      }
+    },
+    {
+      "age": 73,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 462.76,
+        "הכשרה": 352.67,
+        "הפניקס": 473.5,
+        "הראל": 620.08,
+        "כלל": 380.84,
+        "מגדל": 476.55,
+        "מנורה": 573.1
+      }
+    },
+    {
+      "age": 73,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 153.32,
+        "הכשרה": 154.67,
+        "הפניקס": 156.42,
+        "הראל": 188.75,
+        "כלל": 131.42,
+        "מגדל": 213.61,
+        "מנורה": 175.66
+      }
+    },
+    {
+      "age": 73,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 328.15,
+        "הכשרה": 230.58,
+        "הפניקס": 373.58,
+        "הראל": 402.33,
+        "כלל": 270.07,
+        "מגדל": 280.47,
+        "מנורה": 357.04
+      }
+    },
+    {
+      "age": 74,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 252.92,
+        "הכשרה": 228.25,
+        "הפניקס": 252.92,
+        "הראל": 335.83,
+        "כלל": 229.49,
+        "מגדל": 310.56,
+        "מנורה": 300.26
+      }
+    },
+    {
+      "age": 74,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 491.58,
+        "הכשרה": 392.58,
+        "הפניקס": 491.58,
+        "הראל": 693.42,
+        "כלל": 421.32,
+        "מגדל": 537.67,
+        "מנורה": 612.16
+      }
+    },
+    {
+      "age": 74,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 164.67,
+        "הכשרה": 170.5,
+        "הפניקס": 164.67,
+        "הראל": 219.83,
+        "כלל": 144.22,
+        "מגדל": 235.14,
+        "מנורה": 205.08
+      }
+    },
+    {
+      "age": 74,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 362.02,
+        "הכשרה": 254.25,
+        "הפניקס": 388.33,
+        "הראל": 451.25,
+        "כלל": 299.18,
+        "מגדל": 309.42,
+        "מנורה": 382.6
+      }
+    },
+    {
+      "age": 75,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 269.08,
+        "הכשרה": 248.83,
+        "הפניקס": 269.08,
+        "הראל": 382.83,
+        "כלל": 251.81,
+        "מגדל": 341.81,
+        "מנורה": 338.71
+      }
+    },
+    {
+      "age": 75,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 511.33,
+        "הכשרה": 428.17,
+        "הפניקס": 511.33,
+        "הראל": 775.17,
+        "כלל": 460.15,
+        "מגדל": 593.15,
+        "מנורה": 649.37
+      }
+    },
+    {
+      "age": 75,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 173.92,
+        "הכשרה": 184.67,
+        "הפניקס": 173.92,
+        "הראל": 257.75,
+        "כלל": 159.11,
+        "מגדל": 253.83,
+        "מנורה": 239.72
+      }
+    },
+    {
+      "age": 75,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 391.66,
+        "הכשרה": 275.42,
+        "הפניקס": 404.58,
+        "הראל": 506.33,
+        "כלל": 331.02,
+        "מגדל": 334.76,
+        "מנורה": 407.32
+      }
+    },
+    {
+      "age": 76,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 303.92,
+        "הכשרה": 267.58,
+        "הפניקס": 303.92,
+        "הראל": 431.58,
+        "כלל": 277.69,
+        "מגדל": 370.56,
+        "מנורה": 425.58
+      }
+    },
+    {
+      "age": 76,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 563.75,
+        "הכשרה": 460.42,
+        "הפניקס": 563.75,
+        "הראל": 839.25,
+        "כלל": 507.32,
+        "מגדל": 644.5,
+        "מנורה": 683.4
+      }
+    },
+    {
+      "age": 76,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 195.0,
+        "הכשרה": 200.5,
+        "הפניקס": 195.0,
+        "הראל": 299.33,
+        "כלל": 174.55,
+        "מגדל": 274.88,
+        "מנורה": 298.54
+      }
+    },
+    {
+      "age": 76,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 425.08,
+        "הכשרה": 299.0,
+        "הפניקס": 447.08,
+        "הראל": 566.17,
+        "כלל": 365.74,
+        "מגדל": 363.32,
+        "מנורה": 430.54
+      }
+    },
+    {
+      "age": 77,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 343.25,
+        "הכשרה": 287.5,
+        "הפניקס": 343.25,
+        "הראל": 486.0,
+        "כלל": 307.92,
+        "מגדל": 401.71,
+        "מנורה": 518.36
+      }
+    },
+    {
+      "age": 77,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 620.42,
+        "הכשרה": 494.67,
+        "הפניקס": 620.42,
+        "הראל": 905.58,
+        "כלל": 556.26,
+        "מגדל": 700.29,
+        "מנורה": 697.98
+      }
+    },
+    {
+      "age": 77,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 218.67,
+        "הכשרה": 217.33,
+        "הפניקס": 218.67,
+        "הראל": 347.0,
+        "כלל": 187.0,
+        "מגדל": 297.29,
+        "מנורה": 328.54
+      }
+    },
+    {
+      "age": 77,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 460.76,
+        "הכשרה": 324.08,
+        "הפניקס": 493.33,
+        "הראל": 632.67,
+        "כלל": 403.59,
+        "מגדל": 393.81,
+        "מנורה": 450.74
+      }
+    },
+    {
+      "age": 78,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 387.67,
+        "הכשרה": 310.08,
+        "הפניקס": 387.67,
+        "הראל": 567.33,
+        "כלל": 341.23,
+        "מגדל": 437.82,
+        "מנורה": 580.78
+      }
+    },
+    {
+      "age": 78,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 681.67,
+        "הכשרה": 533.42,
+        "הפניקס": 681.67,
+        "הראל": 1012.17,
+        "כלל": 608.81,
+        "מגדל": 764.99,
+        "מנורה": 718.93
+      }
+    },
+    {
+      "age": 78,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 245.17,
+        "הכשרה": 237.75,
+        "הפניקס": 245.17,
+        "הראל": 392.75,
+        "כלל": 207.22,
+        "מגדל": 325.27,
+        "מנורה": 369.85
+      }
+    },
+    {
+      "age": 78,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 505.25,
+        "הכשרה": 354.58,
+        "הפניקס": 543.58,
+        "הראל": 707.42,
+        "כלל": 444.72,
+        "מגדל": 431.84,
+        "מנורה": 466.66
+      }
+    },
+    {
+      "age": 79,
+      "gender": "זכר",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 437.58,
+        "הכשרה": 333.92,
+        "הפניקס": 437.58,
+        "הראל": 642.5,
+        "כלל": 377.95,
+        "מגדל": 476.97,
+        "מנורה": 651.91
+      }
+    },
+    {
+      "age": 79,
+      "gender": "זכר",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 747.58,
+        "הכשרה": 574.42,
+        "הפניקס": 747.58,
+        "הראל": 1096.58,
+        "כלל": 665.12,
+        "מגדל": 835.31,
+        "מנורה": 729.52
+      }
+    },
+    {
+      "age": 79,
+      "gender": "נקבה",
+      "smoker": "לא מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 274.92,
+        "הכשרה": 266.08,
+        "הפניקס": 274.92,
+        "הראל": 443.83,
+        "כלל": 228.22,
+        "מגדל": 365.21,
+        "מנורה": 417.25
+      }
+    },
+    {
+      "age": 79,
+      "gender": "נקבה",
+      "smoker": "מעשן",
+      "sum_insured": 100000,
+      "per_100k": {
+        "איילון": 568.55,
+        "הכשרה": 397.0,
+        "הפניקס": 598.17,
+        "הראל": 790.75,
+        "כלל": 489.35,
+        "מגדל": 485.94,
+        "מנורה": 476.3
+      }
+    }
+  ],
+  "calculation": {
+    "mortgage_rate_mode": "effective_monthly",
+    "premium_mode": "year_fixed_monthly",
+    "age_increment": "annual_at_policy_year_start",
+    "monthly_rounding": "bankers",
+    "unit_basis": "per_100k_of_balance"
   }
-]
+}
