@@ -176,34 +176,28 @@
           "factor": 0.7
         }
       ],
-      "cumulative": [
-        {
-          "from_year": 1,
-          "to_year": 1,
-          "factor": 0.6
-        },
-        {
-          "from_year": 2,
-          "to_year": 2,
-          "factor": 0.7
-        },
-        {
-          "from_year": 3,
-          "to_year": 6,
-          "factor": 0.8
-        },
-        {
-          "from_year": 7,
-          "to_year": 14,
-          "factor": 1.0
-        },
-        {
-          "from_year": 15,
-          "to_year": null,
-          "factor": 0.55
-        }
-      ]
-    },
+    "cumulative": [
+  {
+    "from_year": 1,
+    "to_year": 1,
+    "factor": 0.7
+  },
+  {
+    "from_year": 2,
+    "to_year": 6,
+    "factor": 0.85
+  },
+  {
+    "from_year": 7,
+    "to_year": 14,
+    "factor": 1.0
+  },
+  {
+    "from_year": 15,
+    "to_year": null,
+    "factor": 0.0
+  }
+]
     "מגדל": {
       "monthly": [
         {
