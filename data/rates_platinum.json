@@ -1,0 +1,51 @@
+{
+  "vendor": "Platinum",
+  "billing_days": [2, 10, 15, 20],
+  "products": [
+    {
+      "key": "platinum_health",
+      "insurance_type": "כתב שירות – פלטינום בריאות",
+      "rates": [
+        { "minAge": 0, "maxAge": 20, "price": 50 },
+        { "minAge": 20, "maxAge": 100, "price": 99 }
+      ]
+    },
+    {
+      "key": "platinum_premium",
+      "insurance_type": "כתב שירות – פלטינום פרימיום",
+      "requires": ["platinum_health"],
+      "rates": [
+        { "minAge": 0, "maxAge": 20, "price": 27 },
+        { "minAge": 20, "maxAge": 100, "price": 20 }
+      ]
+    },
+    {
+      "key": "platinum_complementary",
+      "insurance_type": "כתב שירות – רפואה משלימה",
+      "rates": [
+        { "minAge": 0, "maxAge": 20, "price": 15 },
+        { "minAge": 20, "maxAge": 40, "price": 39 },
+        { "minAge": 40, "maxAge": 60, "price": 49 },
+        { "minAge": 60, "maxAge": 100, "price": 59 }
+      ]
+    },
+    {
+      "key": "platinum_doctor_home",
+      "insurance_type": "כתב שירות – רופא עד הבית",
+      "rates": [
+        { "minAge": 0, "maxAge": 30, "price": 30 },
+        { "minAge": 30, "maxAge": 40, "price": 40 },
+        { "minAge": 40, "maxAge": 60, "price": 50 },
+        { "minAge": 60, "maxAge": 100, "price": 70 }
+      ]
+    },
+    {
+      "key": "platinum_dental",
+      "insurance_type": "שירותי שיניים – פלטינום דנטל",
+      "rates": [
+        { "minAge": 0, "maxAge": 21, "price": 39 },
+        { "minAge": 21, "maxAge": 100, "price": 99 }
+      ]
+    }
+  ]
+}
